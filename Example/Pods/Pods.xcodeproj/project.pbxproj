@@ -1,0 +1,1062 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0699E5165A1435F3BB9D9D47550B6D97 /* FADesignable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E505DBA287644881A8B08A976BD2A1 /* FADesignable-dummy.m */; };
+		0A70435E36A9C3EA1C9964953A315BC4 /* FATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AACAD9C5CCB273F635954635C9ACD6 /* FATableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1134A7E13E65E9E628427C5DDB8DAD25 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F75CBD04E0F62A04FAACC7C45A38E29 /* FAImageView.m */; };
+		134E24D0433BC793A950473F4E04CECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
+		154E029FC4C7CBC3324138E5F176F35E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
+		20711BF8D24530C510F165F3A7BED323 /* FAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DE8D2004D3F3B160C4DFF6D4127BE /* FAButton.m */; };
+		234A24654DA5E61BABFB96CB64F5DAD1 /* FAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A16313BDD06F0E5D0988737BE9B3E9 /* FAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A123C422CFEA2E3EA3E027468B74D3 /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B454302A08C89E47BBD1DCEC1088C05D /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348417A52A412EC0377533BADFC6389D /* Pods-FADesignable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 782205B25FC80CB5912FEC0DEF541500 /* Pods-FADesignable_Example-dummy.m */; };
+		3E0E27A409B58225879202B46F2B29A9 /* FADesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3C99CF7FDE27E6712CA0736437B42F /* FADesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F33A55685DC9E1B54F8020806007859 /* FAProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 010246F6B00BBD83608C294E93C4028F /* FAProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6C42FA75F49C5A4305FCC6C583A8BB /* UITextView_Placeholder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684C2D0F573B50C7DAFABA2E150984B2 /* UITextView_Placeholder.framework */; };
+		5032008C32055D08F7050B9636A39DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
+		524CCAC08A997D509E55FDAA5C5EA41F /* Pods-FADesignable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B46A19DA4086806AF74221714BB05033 /* Pods-FADesignable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D76BC8821D58AE8B34F36DC4F125D76 /* FALabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D877E179FF4A5F926420D298296F2D8 /* FALabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DEAE3A40E547294AE88D58C67A672D5 /* FAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA95E8495E53326FAF919D8019A0FA9 /* FAProgressView.m */; };
+		5FE179D7DAA078EF7C1B8FC9D3EEAAD5 /* FACollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473A0371D62DEB7B53432C634A206C9D /* FACollectionView.m */; };
+		71D70DB2C5BA9D29176ED0F40AA26598 /* FASegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CF54E8D6AE6B8B111A14A38BDE8105 /* FASegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CCB92ED6AF7B118593B68A4A4B4BFAE /* FAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56C6D908969065D6A537B80C5C47506 /* FAView.m */; };
+		7F7E522E280FC251D4BD8AE38B889FC5 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B4050EFFC65FE7BAF36B0937E283D8 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m */; };
+		828DE9ED910E5F113391D9E2A33EF1CF /* UIView+FAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7B7875A006638483091C6FFE9F96C /* UIView+FAView.m */; };
+		856C4136BBD92C80C4A7AAE9923ECD13 /* FAScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD32F9B8445ECAC65B4E05A1D0FDD05E /* FAScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88CF507E18B723469939C2BF23AB4AD6 /* FATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5866B9A011915FE045A24C52BFCAC6CF /* FATextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D3BB6CE39B7A02D11F0E9DA599BBA3 /* FATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B52EA1F4BBF9854C5D23060A4DF6F2 /* FATextField.m */; };
+		8B5AFCB373938654BB4067010C624CFC /* UITextView+Placeholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A75CD702E94F8C2710E4E77A76D86 /* UITextView+Placeholder-dummy.m */; };
+		8D763C572D830A060C603970A29F13DE /* FATextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8438680F2FBE3659D7F4E68AF968AA /* FATextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FAD3528A523E89D1A06D61BBA0B046E /* FALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7A3EC106A8210BFDCE282028696FD /* FALabel.m */; };
+		98360AD5AA345A9FDFD133FF39B270D4 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */; };
+		A5F144AB5FDE6C04FA7D799EF102214A /* UITextView+Placeholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC1D444557614FAE1335613F019DE28 /* UITextView+Placeholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F916EFDA3B63B9B03EEB685150CB53 /* FAImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB240C3C799B37E34779A66F53336F8B /* FAImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6372C7397185053C58392CA6B1DA245 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C387A99B78B186EED5FA0268AA563549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
+		C519B80E076ED1D7EF267F4DE21B54D6 /* FASegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188CD4D7AA71E7903FD444C7AA84723 /* FASegmentedControl.m */; };
+		C52A31FFE079FAE430EB887268863D2A /* FACollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA817BF38A2063F9BF748AF8C510B832 /* FACollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2BA0503796267982040A2B7241E9D4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B03AFC93EC2D10820D355CBEEC37D2 /* UIKit.framework */; };
+		D9C021F14B741723B7A378607BF8B370 /* FAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 114461499E6CDFD63310F65B4A5C504E /* FAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1B9ADD8201E7965FA43FA52005474A /* UIView+FAView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD19596F169F77565B4CE86C7811C27 /* UIView+FAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E4A60DA1F7191D9EC7D82FFC41A69C /* FATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D763F56406B490670A393CE7E5F80B15 /* FATextView.m */; };
+		EEFD588172899061270004BF66AD26A7 /* FAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD459F46B7C80AC0CAB4061DFC3BCC02 /* FAScrollView.m */; };
+		FA44C53F15B41EDDAE1C9EA435C74D53 /* FADesignable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA751DF23FD459C96F6D2613071B4799 /* FADesignable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB1DD7130DD157FE3BCD76216EB6A9D7 /* FATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC36985595F872D624CC030147504A5 /* FATableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EE685429949B1FD566CBF641C2DB6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C8F0C8A93C182467C92FB0CBE04ACDE;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		4A8B4AEB14A28343890998E2EC5F2108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748199973148203D0B63B522D63A63DE;
+			remoteInfo = FADesignable;
+		};
+		A958E175BCD8F86C11C540563D1D4834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C8F0C8A93C182467C92FB0CBE04ACDE;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		BFB65E7B12DB1BE4A7C53371E5126CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C8F0C8A93C182467C92FB0CBE04ACDE;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		F232FBDAF7DF7231FAF80C1C287C63C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748199973148203D0B63B522D63A63DE;
+			remoteInfo = FADesignable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010246F6B00BBD83608C294E93C4028F /* FAProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAProgressView.h; sourceTree = "<group>"; };
+		0357127B8F811E2147E12FF2ED9DA1C8 /* Pods-FADesignable_Example-FADesignable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FADesignable_Example-FADesignable_Tests.modulemap"; sourceTree = "<group>"; };
+		04C31A2A9A108D10D404D7E5F339B4AB /* FADesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FADesignable.framework; path = FADesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC7A3EC106A8210BFDCE282028696FD /* FALabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FALabel.m; sourceTree = "<group>"; };
+		0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITextView_Placeholder.framework; path = "UITextView+Placeholder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D877E179FF4A5F926420D298296F2D8 /* FALabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FALabel.h; sourceTree = "<group>"; };
+		114461499E6CDFD63310F65B4A5C504E /* FAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAView.h; sourceTree = "<group>"; };
+		14B03AFC93EC2D10820D355CBEEC37D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		18C5F10F8E04B121BDBEA9340C79C0D6 /* FADesignable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FADesignable.modulemap; sourceTree = "<group>"; };
+		1B73BAA7E1786C1FBD2013D0C9FE8567 /* Pods-FADesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1CA7B7875A006638483091C6FFE9F96C /* UIView+FAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FAView.m"; sourceTree = "<group>"; };
+		27CF54E8D6AE6B8B111A14A38BDE8105 /* FASegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FASegmentedControl.h; sourceTree = "<group>"; };
+		2874FC88D8F97FBB2A31914D25887D98 /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B8438680F2FBE3659D7F4E68AF968AA /* FATextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextView.h; sourceTree = "<group>"; };
+		3614514D5CD4A07A22D8583B36ADC3A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B4050EFFC65FE7BAF36B0937E283D8 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FADesignable_Example-FADesignable_Tests-dummy.m"; sourceTree = "<group>"; };
+		3C5360A3BF503AA247DC96A5B4E93758 /* Pods-FADesignable_Example-FADesignable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-FADesignable_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		419FC062911CE2865CE74DED60A38CD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		473A0371D62DEB7B53432C634A206C9D /* FACollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FACollectionView.m; sourceTree = "<group>"; };
+		51A16313BDD06F0E5D0988737BE9B3E9 /* FAButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAButton.h; sourceTree = "<group>"; };
+		5866B9A011915FE045A24C52BFCAC6CF /* FATextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextField.h; sourceTree = "<group>"; };
+		59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FADesignable_Example.framework; path = "Pods-FADesignable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C86566CB99C557CA0165431B88B2E6 /* Pods-FADesignable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FADesignable_Example.modulemap"; sourceTree = "<group>"; };
+		684C2D0F573B50C7DAFABA2E150984B2 /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITextView_Placeholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC36985595F872D624CC030147504A5 /* FATableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATableView.m; sourceTree = "<group>"; };
+		756A75CD702E94F8C2710E4E77A76D86 /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
+		782205B25FC80CB5912FEC0DEF541500 /* Pods-FADesignable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FADesignable_Example-dummy.m"; sourceTree = "<group>"; };
+		7FC1D444557614FAE1335613F019DE28 /* UITextView+Placeholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-umbrella.h"; sourceTree = "<group>"; };
+		83D39499D433EBDD5D056EA46794F627 /* Pods-FADesignable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FADesignable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88AACAD9C5CCB273F635954635C9ACD6 /* FATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATableView.h; sourceTree = "<group>"; };
+		892BC16B4894E636B9A4E530B01E19AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FADesignable.xcconfig; sourceTree = "<group>"; };
+		9188CD4D7AA71E7903FD444C7AA84723 /* FASegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FASegmentedControl.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITextView+Placeholder.xcconfig"; sourceTree = "<group>"; };
+		9F1D756BBF54A485666F5F37AD930DDF /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F45BEB53FF8F345F475E93AF33F13B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F75CBD04E0F62A04FAACC7C45A38E29 /* FAImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "Sources/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		B386DE3EDBD7316C6993518884EE6DF6 /* Pods-FADesignable_Example-FADesignable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-FADesignable_Tests-resources.sh"; sourceTree = "<group>"; };
+		B3B52EA1F4BBF9854C5D23060A4DF6F2 /* FATextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextField.m; sourceTree = "<group>"; };
+		B454302A08C89E47BBD1DCEC1088C05D /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FADesignable_Example-FADesignable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B46A19DA4086806AF74221714BB05033 /* Pods-FADesignable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FADesignable_Example-umbrella.h"; sourceTree = "<group>"; };
+		B56C6D908969065D6A537B80C5C47506 /* FAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAView.m; sourceTree = "<group>"; };
+		BA751DF23FD459C96F6D2613071B4799 /* FADesignable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FADesignable-umbrella.h"; sourceTree = "<group>"; };
+		C02BD1500088758876F5E219830E4C27 /* UITextView+Placeholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UITextView+Placeholder.modulemap"; sourceTree = "<group>"; };
+		C49DE8D2004D3F3B160C4DFF6D4127BE /* FAButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAButton.m; sourceTree = "<group>"; };
+		CA584C4B87886EA0B98A557053EEBF08 /* Pods-FADesignable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CBD19596F169F77565B4CE86C7811C27 /* UIView+FAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FAView.h"; sourceTree = "<group>"; };
+		CD32F9B8445ECAC65B4E05A1D0FDD05E /* FAScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAScrollView.h; sourceTree = "<group>"; };
+		D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FADesignable_Example_FADesignable_Tests.framework; path = "Pods-FADesignable_Example-FADesignable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5A0A86C0960EB6DD073A4335500B6E1 /* Pods-FADesignable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-resources.sh"; sourceTree = "<group>"; };
+		D763F56406B490670A393CE7E5F80B15 /* FATextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextView.m; sourceTree = "<group>"; };
+		DB240C3C799B37E34779A66F53336F8B /* FAImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		DBB1CB6153567A64226E960B3CCF5D92 /* Pods-FADesignable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0060B14C37C37D9E3A6A3BB293E2B1 /* FADesignable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FADesignable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC7D4680567F1C8CDE1FD8EE1E25A1BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DD459F46B7C80AC0CAB4061DFC3BCC02 /* FAScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAScrollView.m; sourceTree = "<group>"; };
+		DF9618AAE8937D51AB6B58C7262280EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EF8A0FA6DC2FD593C883A3E7B526A6 /* Pods-FADesignable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FADesignable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2242E2D4FFF4855717D2163FC553C67 /* UITextView+Placeholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-prefix.pch"; sourceTree = "<group>"; };
+		E2F452A4C443856A93BE12D1026E76EB /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF3C99CF7FDE27E6712CA0736437B42F /* FADesignable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FADesignable.h; path = FADesignable/Classes/FADesignable.h; sourceTree = "<group>"; };
+		F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "Sources/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		F2125F1E7A18A292A6E2D628709FB9FD /* FADesignable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FADesignable-prefix.pch"; sourceTree = "<group>"; };
+		F9E505DBA287644881A8B08A976BD2A1 /* FADesignable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FADesignable-dummy.m"; sourceTree = "<group>"; };
+		FA817BF38A2063F9BF748AF8C510B832 /* FACollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FACollectionView.h; sourceTree = "<group>"; };
+		FACA4DB1BD88F9803BB77D04EE84F31D /* Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA95E8495E53326FAF919D8019A0FA9 /* FAProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1702E1828B85A002EF914528CED0E479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134E24D0433BC793A950473F4E04CECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		296016394BD04C308EB3581618B09E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C387A99B78B186EED5FA0268AA563549 /* Foundation.framework in Frameworks */,
+				D2BA0503796267982040A2B7241E9D4F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B584A90085D78322370C882D28D76309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E029FC4C7CBC3324138E5F176F35E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F327D59E68435DAEF1A10801D64BD3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5032008C32055D08F7050B9636A39DB9 /* Foundation.framework in Frameworks */,
+				3F6C42FA75F49C5A4305FCC6C583A8BB /* UITextView_Placeholder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058465F64C7BEC8772CB10C2129FEAA8 /* FADesignable */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C99CF7FDE27E6712CA0736437B42F /* FADesignable.h */,
+				F6BF5401F8CD08A7C52627B6A5E0BBCB /* Categories */,
+				7A7DD4EEFBA7CD6E2441CCE918D78D11 /* Controls */,
+				B75BE9D5A03AD4F7991BFE539C84DBC9 /* Pod */,
+				6ACDA26BE3BF08367773DEEE1EA09C2C /* Support Files */,
+			);
+			name = FADesignable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2C9E82CD5E368FACDA8305E3C32DD4D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C31A2A9A108D10D404D7E5F339B4AB /* FADesignable.framework */,
+				59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */,
+				D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */,
+				0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36567D4DFF582BCC0FB47BF86DADCD61 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD97E4D5D375FACE09B8629B06D25090 /* Pods-FADesignable_Example */,
+				3E68C2FF80E9AC06E28BC91A1549983A /* Pods-FADesignable_Example-FADesignable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E68C2FF80E9AC06E28BC91A1549983A /* Pods-FADesignable_Example-FADesignable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				892BC16B4894E636B9A4E530B01E19AE /* Info.plist */,
+				0357127B8F811E2147E12FF2ED9DA1C8 /* Pods-FADesignable_Example-FADesignable_Tests.modulemap */,
+				9F1D756BBF54A485666F5F37AD930DDF /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.markdown */,
+				E2F452A4C443856A93BE12D1026E76EB /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.plist */,
+				36B4050EFFC65FE7BAF36B0937E283D8 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m */,
+				3C5360A3BF503AA247DC96A5B4E93758 /* Pods-FADesignable_Example-FADesignable_Tests-frameworks.sh */,
+				B386DE3EDBD7316C6993518884EE6DF6 /* Pods-FADesignable_Example-FADesignable_Tests-resources.sh */,
+				B454302A08C89E47BBD1DCEC1088C05D /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h */,
+				FACA4DB1BD88F9803BB77D04EE84F31D /* Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig */,
+				2874FC88D8F97FBB2A31914D25887D98 /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */,
+			);
+			name = "Pods-FADesignable_Example-FADesignable_Tests";
+			path = "Target Support Files/Pods-FADesignable_Example-FADesignable_Tests";
+			sourceTree = "<group>";
+		};
+		57904B1AA1374D3915628DC8E059E1E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3614514D5CD4A07A22D8583B36ADC3A4 /* Info.plist */,
+				C02BD1500088758876F5E219830E4C27 /* UITextView+Placeholder.modulemap */,
+				98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */,
+				756A75CD702E94F8C2710E4E77A76D86 /* UITextView+Placeholder-dummy.m */,
+				E2242E2D4FFF4855717D2163FC553C67 /* UITextView+Placeholder-prefix.pch */,
+				7FC1D444557614FAE1335613F019DE28 /* UITextView+Placeholder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		6ACDA26BE3BF08367773DEEE1EA09C2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C5F10F8E04B121BDBEA9340C79C0D6 /* FADesignable.modulemap */,
+				8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */,
+				F9E505DBA287644881A8B08A976BD2A1 /* FADesignable-dummy.m */,
+				F2125F1E7A18A292A6E2D628709FB9FD /* FADesignable-prefix.pch */,
+				BA751DF23FD459C96F6D2613071B4799 /* FADesignable-umbrella.h */,
+				DF9618AAE8937D51AB6B58C7262280EE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FADesignable";
+			sourceTree = "<group>";
+		};
+		707630932B6B43158B62BC1E0C06D75A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				058465F64C7BEC8772CB10C2129FEAA8 /* FADesignable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A7DD4EEFBA7CD6E2441CCE918D78D11 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				51A16313BDD06F0E5D0988737BE9B3E9 /* FAButton.h */,
+				C49DE8D2004D3F3B160C4DFF6D4127BE /* FAButton.m */,
+				FA817BF38A2063F9BF748AF8C510B832 /* FACollectionView.h */,
+				473A0371D62DEB7B53432C634A206C9D /* FACollectionView.m */,
+				DB240C3C799B37E34779A66F53336F8B /* FAImageView.h */,
+				9F75CBD04E0F62A04FAACC7C45A38E29 /* FAImageView.m */,
+				0D877E179FF4A5F926420D298296F2D8 /* FALabel.h */,
+				0BC7A3EC106A8210BFDCE282028696FD /* FALabel.m */,
+				010246F6B00BBD83608C294E93C4028F /* FAProgressView.h */,
+				FFA95E8495E53326FAF919D8019A0FA9 /* FAProgressView.m */,
+				CD32F9B8445ECAC65B4E05A1D0FDD05E /* FAScrollView.h */,
+				DD459F46B7C80AC0CAB4061DFC3BCC02 /* FAScrollView.m */,
+				27CF54E8D6AE6B8B111A14A38BDE8105 /* FASegmentedControl.h */,
+				9188CD4D7AA71E7903FD444C7AA84723 /* FASegmentedControl.m */,
+				88AACAD9C5CCB273F635954635C9ACD6 /* FATableView.h */,
+				6EC36985595F872D624CC030147504A5 /* FATableView.m */,
+				5866B9A011915FE045A24C52BFCAC6CF /* FATextField.h */,
+				B3B52EA1F4BBF9854C5D23060A4DF6F2 /* FATextField.m */,
+				2B8438680F2FBE3659D7F4E68AF968AA /* FATextView.h */,
+				D763F56406B490670A393CE7E5F80B15 /* FATextView.m */,
+				114461499E6CDFD63310F65B4A5C504E /* FAView.h */,
+				B56C6D908969065D6A537B80C5C47506 /* FAView.m */,
+			);
+			name = Controls;
+			path = FADesignable/Classes/Controls;
+			sourceTree = "<group>";
+		};
+		7C693BF2DE71DFBEAA606D48C3E677D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684C2D0F573B50C7DAFABA2E150984B2 /* UITextView_Placeholder.framework */,
+				D002F4E82EBDADA111185B1F997F3EED /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				707630932B6B43158B62BC1E0C06D75A /* Development Pods */,
+				7C693BF2DE71DFBEAA606D48C3E677D2 /* Frameworks */,
+				A0C9983810570E3C02F76CA079A629BC /* Pods */,
+				2C9E82CD5E368FACDA8305E3C32DD4D9 /* Products */,
+				36567D4DFF582BCC0FB47BF86DADCD61 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96557DC6C8C25BF5B55C530361C779A7 /* UITextView+Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */,
+				A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */,
+				57904B1AA1374D3915628DC8E059E1E6 /* Support Files */,
+			);
+			name = "UITextView+Placeholder";
+			path = "UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		A0C9983810570E3C02F76CA079A629BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96557DC6C8C25BF5B55C530361C779A7 /* UITextView+Placeholder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B75BE9D5A03AD4F7991BFE539C84DBC9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DC0060B14C37C37D9E3A6A3BB293E2B1 /* FADesignable.podspec */,
+				DC7D4680567F1C8CDE1FD8EE1E25A1BE /* LICENSE */,
+				419FC062911CE2865CE74DED60A38CD8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BD97E4D5D375FACE09B8629B06D25090 /* Pods-FADesignable_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F45BEB53FF8F345F475E93AF33F13B5 /* Info.plist */,
+				60C86566CB99C557CA0165431B88B2E6 /* Pods-FADesignable_Example.modulemap */,
+				83D39499D433EBDD5D056EA46794F627 /* Pods-FADesignable_Example-acknowledgements.markdown */,
+				E0EF8A0FA6DC2FD593C883A3E7B526A6 /* Pods-FADesignable_Example-acknowledgements.plist */,
+				782205B25FC80CB5912FEC0DEF541500 /* Pods-FADesignable_Example-dummy.m */,
+				CA584C4B87886EA0B98A557053EEBF08 /* Pods-FADesignable_Example-frameworks.sh */,
+				D5A0A86C0960EB6DD073A4335500B6E1 /* Pods-FADesignable_Example-resources.sh */,
+				B46A19DA4086806AF74221714BB05033 /* Pods-FADesignable_Example-umbrella.h */,
+				DBB1CB6153567A64226E960B3CCF5D92 /* Pods-FADesignable_Example.debug.xcconfig */,
+				1B73BAA7E1786C1FBD2013D0C9FE8567 /* Pods-FADesignable_Example.release.xcconfig */,
+			);
+			name = "Pods-FADesignable_Example";
+			path = "Target Support Files/Pods-FADesignable_Example";
+			sourceTree = "<group>";
+		};
+		D002F4E82EBDADA111185B1F997F3EED /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */,
+				14B03AFC93EC2D10820D355CBEEC37D2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6BF5401F8CD08A7C52627B6A5E0BBCB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CBD19596F169F77565B4CE86C7811C27 /* UIView+FAView.h */,
+				1CA7B7875A006638483091C6FFE9F96C /* UIView+FAView.m */,
+			);
+			name = Categories;
+			path = FADesignable/Classes/Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		181AD906D77DB0B1A8812FB2E0EEFBBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F144AB5FDE6C04FA7D799EF102214A /* UITextView+Placeholder-umbrella.h in Headers */,
+				B6372C7397185053C58392CA6B1DA245 /* UITextView+Placeholder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		382F5BEA9737DCB10B57E43AC32E6061 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A24654DA5E61BABFB96CB64F5DAD1 /* FAButton.h in Headers */,
+				C52A31FFE079FAE430EB887268863D2A /* FACollectionView.h in Headers */,
+				FA44C53F15B41EDDAE1C9EA435C74D53 /* FADesignable-umbrella.h in Headers */,
+				3E0E27A409B58225879202B46F2B29A9 /* FADesignable.h in Headers */,
+				A8F916EFDA3B63B9B03EEB685150CB53 /* FAImageView.h in Headers */,
+				5D76BC8821D58AE8B34F36DC4F125D76 /* FALabel.h in Headers */,
+				3F33A55685DC9E1B54F8020806007859 /* FAProgressView.h in Headers */,
+				856C4136BBD92C80C4A7AAE9923ECD13 /* FAScrollView.h in Headers */,
+				71D70DB2C5BA9D29176ED0F40AA26598 /* FASegmentedControl.h in Headers */,
+				0A70435E36A9C3EA1C9964953A315BC4 /* FATableView.h in Headers */,
+				88CF507E18B723469939C2BF23AB4AD6 /* FATextField.h in Headers */,
+				8D763C572D830A060C603970A29F13DE /* FATextView.h in Headers */,
+				D9C021F14B741723B7A378607BF8B370 /* FAView.h in Headers */,
+				DB1B9ADD8201E7965FA43FA52005474A /* UIView+FAView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7261548DC81B569B688E22F68133D07C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524CCAC08A997D509E55FDAA5C5EA41F /* Pods-FADesignable_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A254B1B12527B444A98D43B4F47D90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A123C422CFEA2E3EA3E027468B74D3 /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57772481B293428732914DDECE783DC7 /* Pods-FADesignable_Example-FADesignable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A18433520A1F60C980862614A869565 /* Build configuration list for PBXNativeTarget "Pods-FADesignable_Example-FADesignable_Tests" */;
+			buildPhases = (
+				E735B977F1E501B283C83A62CC00BE47 /* Sources */,
+				B584A90085D78322370C882D28D76309 /* Frameworks */,
+				98A254B1B12527B444A98D43B4F47D90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F5CC2B7604357A914AE8CE33F14B65 /* PBXTargetDependency */,
+				B80BB64CD0045F95AE2EB755317CED71 /* PBXTargetDependency */,
+			);
+			name = "Pods-FADesignable_Example-FADesignable_Tests";
+			productName = "Pods-FADesignable_Example-FADesignable_Tests";
+			productReference = D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302BF0250C265CD5D76E98F267A46B35 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */;
+			buildPhases = (
+				3270D83A0F89BE0DDD91E030D0195BC5 /* Sources */,
+				296016394BD04C308EB3581618B09E2B /* Frameworks */,
+				181AD906D77DB0B1A8812FB2E0EEFBBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView+Placeholder";
+			productName = "UITextView+Placeholder";
+			productReference = 0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		748199973148203D0B63B522D63A63DE /* FADesignable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC6EB2C4A31BAA351C046A23DD3F3BC /* Build configuration list for PBXNativeTarget "FADesignable" */;
+			buildPhases = (
+				901C460DCD6E49F6CDFE199C655847C5 /* Sources */,
+				F327D59E68435DAEF1A10801D64BD3DB /* Frameworks */,
+				382F5BEA9737DCB10B57E43AC32E6061 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F76DAA8077E61C4DC0055A55040944B /* PBXTargetDependency */,
+			);
+			name = FADesignable;
+			productName = FADesignable;
+			productReference = 04C31A2A9A108D10D404D7E5F339B4AB /* FADesignable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E23C9C7E6492C7C2B0D7637CA55782FA /* Pods-FADesignable_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC49810349F9DB9413D554641D6E0B80 /* Build configuration list for PBXNativeTarget "Pods-FADesignable_Example" */;
+			buildPhases = (
+				01FD18BCE6F208F5FE1B6EFDEAD6FD30 /* Sources */,
+				1702E1828B85A002EF914528CED0E479 /* Frameworks */,
+				7261548DC81B569B688E22F68133D07C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C2D81AB711C654E100F12154FB0C9F8 /* PBXTargetDependency */,
+				5EDDA2262E5C79DED1FBDA26535B59EC /* PBXTargetDependency */,
+			);
+			name = "Pods-FADesignable_Example";
+			productName = "Pods-FADesignable_Example";
+			productReference = 59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2C9E82CD5E368FACDA8305E3C32DD4D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748199973148203D0B63B522D63A63DE /* FADesignable */,
+				E23C9C7E6492C7C2B0D7637CA55782FA /* Pods-FADesignable_Example */,
+				57772481B293428732914DDECE783DC7 /* Pods-FADesignable_Example-FADesignable_Tests */,
+				6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FD18BCE6F208F5FE1B6EFDEAD6FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348417A52A412EC0377533BADFC6389D /* Pods-FADesignable_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3270D83A0F89BE0DDD91E030D0195BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5AFCB373938654BB4067010C624CFC /* UITextView+Placeholder-dummy.m in Sources */,
+				98360AD5AA345A9FDFD133FF39B270D4 /* UITextView+Placeholder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901C460DCD6E49F6CDFE199C655847C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20711BF8D24530C510F165F3A7BED323 /* FAButton.m in Sources */,
+				5FE179D7DAA078EF7C1B8FC9D3EEAAD5 /* FACollectionView.m in Sources */,
+				0699E5165A1435F3BB9D9D47550B6D97 /* FADesignable-dummy.m in Sources */,
+				1134A7E13E65E9E628427C5DDB8DAD25 /* FAImageView.m in Sources */,
+				8FAD3528A523E89D1A06D61BBA0B046E /* FALabel.m in Sources */,
+				5DEAE3A40E547294AE88D58C67A672D5 /* FAProgressView.m in Sources */,
+				EEFD588172899061270004BF66AD26A7 /* FAScrollView.m in Sources */,
+				C519B80E076ED1D7EF267F4DE21B54D6 /* FASegmentedControl.m in Sources */,
+				FB1DD7130DD157FE3BCD76216EB6A9D7 /* FATableView.m in Sources */,
+				88D3BB6CE39B7A02D11F0E9DA599BBA3 /* FATextField.m in Sources */,
+				E9E4A60DA1F7191D9EC7D82FFC41A69C /* FATextView.m in Sources */,
+				7CCB92ED6AF7B118593B68A4A4B4BFAE /* FAView.m in Sources */,
+				828DE9ED910E5F113391D9E2A33EF1CF /* UIView+FAView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E735B977F1E501B283C83A62CC00BE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7E522E280FC251D4BD8AE38B889FC5 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F5CC2B7604357A914AE8CE33F14B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FADesignable;
+			target = 748199973148203D0B63B522D63A63DE /* FADesignable */;
+			targetProxy = 4A8B4AEB14A28343890998E2EC5F2108 /* PBXContainerItemProxy */;
+		};
+		3F76DAA8077E61C4DC0055A55040944B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			target = 6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */;
+			targetProxy = 0EE685429949B1FD566CBF641C2DB6FE /* PBXContainerItemProxy */;
+		};
+		5EDDA2262E5C79DED1FBDA26535B59EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			target = 6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */;
+			targetProxy = BFB65E7B12DB1BE4A7C53371E5126CBA /* PBXContainerItemProxy */;
+		};
+		6C2D81AB711C654E100F12154FB0C9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FADesignable;
+			target = 748199973148203D0B63B522D63A63DE /* FADesignable */;
+			targetProxy = F232FBDAF7DF7231FAF80C1C287C63C3 /* PBXContainerItemProxy */;
+		};
+		B80BB64CD0045F95AE2EB755317CED71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			target = 6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */;
+			targetProxy = A958E175BCD8F86C11C540563D1D4834 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1008FD102BA7239A8628797C0DC83A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FADesignable/FADesignable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FADesignable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FADesignable/FADesignable.modulemap";
+				PRODUCT_NAME = FADesignable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		269585147D02A71E668CEA7962DAF78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB1CB6153567A64226E960B3CCF5D92 /* Pods-FADesignable_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FADesignable_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FADesignable_Example/Pods-FADesignable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FADesignable_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		466E0C0E7E8A892C7F6661769EDBDF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACA4DB1BD88F9803BB77D04EE84F31D /* Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FADesignable_Example_FADesignable_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5817EE3DEF85113612ABD2BD53D41147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				PRODUCT_NAME = UITextView_Placeholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FD556E612D0E3ACA10C467ECFDB4E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B73BAA7E1786C1FBD2013D0C9FE8567 /* Pods-FADesignable_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FADesignable_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FADesignable_Example/Pods-FADesignable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FADesignable_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		817350C80DE7AE5EE41483C3E351D34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2874FC88D8F97FBB2A31914D25887D98 /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FADesignable_Example_FADesignable_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA997093A61EA802D281336F4EC86EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FADesignable/FADesignable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FADesignable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FADesignable/FADesignable.modulemap";
+				PRODUCT_NAME = FADesignable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE606C46A19C011E2DCDC1B9321C7DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				PRODUCT_NAME = UITextView_Placeholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A18433520A1F60C980862614A869565 /* Build configuration list for PBXNativeTarget "Pods-FADesignable_Example-FADesignable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466E0C0E7E8A892C7F6661769EDBDF93 /* Debug */,
+				817350C80DE7AE5EE41483C3E351D34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302BF0250C265CD5D76E98F267A46B35 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE606C46A19C011E2DCDC1B9321C7DE4 /* Debug */,
+				5817EE3DEF85113612ABD2BD53D41147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC6EB2C4A31BAA351C046A23DD3F3BC /* Build configuration list for PBXNativeTarget "FADesignable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1008FD102BA7239A8628797C0DC83A8E /* Debug */,
+				BA997093A61EA802D281336F4EC86EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC49810349F9DB9413D554641D6E0B80 /* Build configuration list for PBXNativeTarget "Pods-FADesignable_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269585147D02A71E668CEA7962DAF78F /* Debug */,
+				5FD556E612D0E3ACA10C467ECFDB4E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

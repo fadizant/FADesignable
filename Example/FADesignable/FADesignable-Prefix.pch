@@ -13,4 +13,6 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+    @import FADesignable;
+    @import UITextView_Placeholder;
 #endif

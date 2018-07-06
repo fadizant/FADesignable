@@ -1,0 +1,6 @@
+framework module FADesignable {
+  umbrella header "FADesignable-umbrella.h"
+
+  export *
+  module * { export * }
+}

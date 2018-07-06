@@ -1,0 +1,19 @@
+PODS:
+  - FADesignable (0.1.0):
+    - UITextView+Placeholder
+  - UITextView+Placeholder (1.2.0)
+
+DEPENDENCIES:
+  - FADesignable (from `../`)
+
+EXTERNAL SOURCES:
+  FADesignable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FADesignable: dfb53044c2424fa7d9d99dd663858bd277d0079d
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+PODFILE CHECKSUM: 39a77830de8953f1674095ea62755e8a1c05de9d
+
+COCOAPODS: 1.4.0

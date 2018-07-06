@@ -4,8 +4,6 @@ target 'FADesignable_Example' do
   pod 'FADesignable', :path => '../'
 
   target 'FADesignable_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+      pod 'FADesignable', :path => '../'
   end
 end

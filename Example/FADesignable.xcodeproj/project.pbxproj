@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		63544980DD374ED811BEE2F2 /* Pods_FADesignable_Example_FADesignable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78416B976DF089FD3F2F0B6D /* Pods_FADesignable_Example_FADesignable_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		75B4DD005325924A025B7B50 /* Pods_FADesignable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE432B5DEB724455DDBFE2B /* Pods_FADesignable_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		179437A356E22028A664ED35 /* Pods-FADesignable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADesignable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FADesignable_Tests/Pods-FADesignable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D6AA6E25D2F2E2F3B58543B /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5393CA5D519F760FBD65DBB4 /* Pods_FADesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADesignable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FADesignable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FADesignable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +61,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		824D6C2A462D188C2D53C68A /* FADesignable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FADesignable.podspec; path = ../FADesignable.podspec; sourceTree = "<group>"; };
+		78416B976DF089FD3F2F0B6D /* Pods_FADesignable_Example_FADesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADesignable_Example_FADesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824D6C2A462D188C2D53C68A /* FADesignable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FADesignable.podspec; path = ../FADesignable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CE432B5DEB724455DDBFE2B /* Pods_FADesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E16906A9F9427386C84C50 /* Pods-FADesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADesignable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FADesignable_Example/Pods-FADesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2EA06050D790699831C0B10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		951DA7CBDDC09685DCD41FF8 /* Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2EA06050D790699831C0B10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D850651706EB7EB6EE52C2FF /* Pods-FADesignable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADesignable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FADesignable_Example/Pods-FADesignable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DFC9A0E173106DF48A439CFB /* Pods-FADesignable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADesignable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FADesignable_Tests/Pods-FADesignable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F587C63C594E7E12FFF976E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F587C63C594E7E12FFF976E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				75B4DD005325924A025B7B50 /* Pods_FADesignable_Tests.framework in Frameworks */,
+				63544980DD374ED811BEE2F2 /* Pods_FADesignable_Example_FADesignable_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				5393CA5D519F760FBD65DBB4 /* Pods_FADesignable_Example.framework */,
 				8CE432B5DEB724455DDBFE2B /* Pods_FADesignable_Tests.framework */,
+				78416B976DF089FD3F2F0B6D /* Pods_FADesignable_Example_FADesignable_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 				92E16906A9F9427386C84C50 /* Pods-FADesignable_Example.release.xcconfig */,
 				DFC9A0E173106DF48A439CFB /* Pods-FADesignable_Tests.debug.xcconfig */,
 				179437A356E22028A664ED35 /* Pods-FADesignable_Tests.release.xcconfig */,
+				951DA7CBDDC09685DCD41FF8 /* Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig */,
+				2D6AA6E25D2F2E2F3B58543B /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -250,6 +258,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fadizant;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UGT6JFF6RL;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -320,10 +331,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Example/Pods-FADesignable_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FADesignable/FADesignable.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FADesignable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -360,7 +373,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Tests/Pods-FADesignable_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0773015E41511DED3E1F705 /* [CP] Check Pods Manifest.lock */ = {
@@ -374,7 +387,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FADesignable_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FADesignable_Example-FADesignable_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -387,16 +400,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Tests/Pods-FADesignable_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FADesignable/FADesignable.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FADesignable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Tests/Pods-FADesignable_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -536,6 +551,7 @@
 			baseConfigurationReference = D850651706EB7EB6EE52C2FF /* Pods-FADesignable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UGT6JFF6RL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FADesignable/FADesignable-Prefix.pch";
 				INFOPLIST_FILE = "FADesignable/FADesignable-Info.plist";
@@ -551,6 +567,7 @@
 			baseConfigurationReference = 92E16906A9F9427386C84C50 /* Pods-FADesignable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UGT6JFF6RL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FADesignable/FADesignable-Prefix.pch";
 				INFOPLIST_FILE = "FADesignable/FADesignable-Info.plist";
@@ -563,7 +580,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFC9A0E173106DF48A439CFB /* Pods-FADesignable_Tests.debug.xcconfig */;
+			baseConfigurationReference = 951DA7CBDDC09685DCD41FF8 /* Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -587,7 +604,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 179437A356E22028A664ED35 /* Pods-FADesignable_Tests.release.xcconfig */;
+			baseConfigurationReference = 2D6AA6E25D2F2E2F3B58543B /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
