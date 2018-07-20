@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIScrollView+FAScrollView.h"
 #import "UIView+FAView.h"
 #import "FAButton.h"
 #import "FACollectionView.h"

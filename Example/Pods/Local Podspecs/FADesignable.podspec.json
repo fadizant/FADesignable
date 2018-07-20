@@ -1,14 +1,14 @@
 {
   "name": "FADesignable",
   "version": "0.1.0",
-  "summary": "A short description of FADesignable.",
+  "summary": "Boarder and shadow for Views",
   "homepage": "https://github.com/fadizant/FADesignable",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "fadizant": "fadizant@yahoo.com"
+    "fadizant": "fadizant@gmail.com"
   },
   "source": {
     "git": "https://github.com/fadizant/FADesignable.git",

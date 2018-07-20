@@ -7,161 +7,174 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0699E5165A1435F3BB9D9D47550B6D97 /* FADesignable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E505DBA287644881A8B08A976BD2A1 /* FADesignable-dummy.m */; };
-		0A70435E36A9C3EA1C9964953A315BC4 /* FATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AACAD9C5CCB273F635954635C9ACD6 /* FATableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1134A7E13E65E9E628427C5DDB8DAD25 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F75CBD04E0F62A04FAACC7C45A38E29 /* FAImageView.m */; };
+		00E8BD55F1C38156BDB8FD555C08DB34 /* UIScrollView+FAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A59FFCE227809D889EFB97D8B9C3EE /* UIScrollView+FAScrollView.m */; };
+		04112B5A82BB04376432DA5BCA9E9A00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
+		0E4EA1467BCC5680F92A5D4009BB18A7 /* FADesignable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4869682F9DC829C57DB097A1A222B6F9 /* FADesignable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9BC5C2A6EEFA878F86789560B79605 /* FAProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB6D06CE66BC44C4362A082F5200523 /* FAProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1294CFCC782AECB57F62CDAD02B19C0E /* FATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75347E9F65B953DAE3C34FCEBCB5E711 /* FATableView.m */; };
 		134E24D0433BC793A950473F4E04CECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
 		154E029FC4C7CBC3324138E5F176F35E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
-		20711BF8D24530C510F165F3A7BED323 /* FAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DE8D2004D3F3B160C4DFF6D4127BE /* FAButton.m */; };
-		234A24654DA5E61BABFB96CB64F5DAD1 /* FAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A16313BDD06F0E5D0988737BE9B3E9 /* FAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CFF3B94ADD7453F3A44F36C25942BBE /* FATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4491743AD90FF8F8686478BCEB5D1A99 /* FATextField.m */; };
 		27A123C422CFEA2E3EA3E027468B74D3 /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B454302A08C89E47BBD1DCEC1088C05D /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32A3550BB391518A137443009BDFE4FB /* FALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E94563F73510248A98667C8E1CC30B31 /* FALabel.m */; };
 		348417A52A412EC0377533BADFC6389D /* Pods-FADesignable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 782205B25FC80CB5912FEC0DEF541500 /* Pods-FADesignable_Example-dummy.m */; };
-		3E0E27A409B58225879202B46F2B29A9 /* FADesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3C99CF7FDE27E6712CA0736437B42F /* FADesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F33A55685DC9E1B54F8020806007859 /* FAProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 010246F6B00BBD83608C294E93C4028F /* FAProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F6C42FA75F49C5A4305FCC6C583A8BB /* UITextView_Placeholder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684C2D0F573B50C7DAFABA2E150984B2 /* UITextView_Placeholder.framework */; };
-		5032008C32055D08F7050B9636A39DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
+		3831A70717E24E4B0B03EEA9ACC00827 /* FAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 828517671D17FC6DF28EE2978B487896 /* FAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38593F59D73C21FD77F447D1DC287BF9 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EC0668BFB74994280C8FEC9C70FB81 /* FAImageView.m */; };
+		3AA3020AA098C3C61056AE97F9869B26 /* FADesignable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFAB90E772E5B28659C0D15BDC39F5 /* FADesignable-dummy.m */; };
+		444A757FBCD4CB7CCEE90DFA2934948A /* FATextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C2685AB4E635C62A410831F4D11A7C /* FATextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44574A2D26BF3E39AFD040EFFCFBE6B5 /* FATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C57008FF9DE8B7975FA661C2EA313B0F /* FATextView.m */; };
 		524CCAC08A997D509E55FDAA5C5EA41F /* Pods-FADesignable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B46A19DA4086806AF74221714BB05033 /* Pods-FADesignable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D76BC8821D58AE8B34F36DC4F125D76 /* FALabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D877E179FF4A5F926420D298296F2D8 /* FALabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DEAE3A40E547294AE88D58C67A672D5 /* FAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA95E8495E53326FAF919D8019A0FA9 /* FAProgressView.m */; };
-		5FE179D7DAA078EF7C1B8FC9D3EEAAD5 /* FACollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473A0371D62DEB7B53432C634A206C9D /* FACollectionView.m */; };
-		71D70DB2C5BA9D29176ED0F40AA26598 /* FASegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CF54E8D6AE6B8B111A14A38BDE8105 /* FASegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CCB92ED6AF7B118593B68A4A4B4BFAE /* FAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56C6D908969065D6A537B80C5C47506 /* FAView.m */; };
+		56E0C6C0FB4547DB618EB1CCD5A039D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
+		5C65DFC44AAB8271C12F6CFED849344B /* FAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B341B0025D708BF82EA036AE3DB2D447 /* FAProgressView.m */; };
+		60FD667BBD58E1DFCF4D94F5ADD797C2 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		611001EE7C6F652DB1B697446CD6D097 /* UIView+FAView.h in Headers */ = {isa = PBXBuildFile; fileRef = F86305D0B5736A5B3276431FC2F7912D /* UIView+FAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630901CDECF439BC4DCC5F1FD593E120 /* FAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B028A9DEF7CFAAB9953BA600F3CEB7D /* FAScrollView.m */; };
+		6486DF171359DB2BCF47A5610BDF3E45 /* FASegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0196E424039B5A68CDAB10DAB4D5E0A /* FASegmentedControl.m */; };
+		6D170F92F4A345C006BE048F87E042A5 /* FASegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E997B90FFDCE5E987FBE8F5DDF670D1 /* FASegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1C634134378CF68C93F015183F39B5 /* FATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD3E671FA1D12E02BFF918A18C09747 /* FATableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75896BD777EDFF3CC95B345C5E0BC1A9 /* FALabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D18E9A6FCB61307321102EDCE6D4EB /* FALabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4BE016492BCC127E88F2873CF891DE /* FAScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F60675CE75C63AAED705DCA979E43B7 /* FAScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F7E522E280FC251D4BD8AE38B889FC5 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B4050EFFC65FE7BAF36B0937E283D8 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m */; };
-		828DE9ED910E5F113391D9E2A33EF1CF /* UIView+FAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7B7875A006638483091C6FFE9F96C /* UIView+FAView.m */; };
-		856C4136BBD92C80C4A7AAE9923ECD13 /* FAScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD32F9B8445ECAC65B4E05A1D0FDD05E /* FAScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88CF507E18B723469939C2BF23AB4AD6 /* FATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5866B9A011915FE045A24C52BFCAC6CF /* FATextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88D3BB6CE39B7A02D11F0E9DA599BBA3 /* FATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B52EA1F4BBF9854C5D23060A4DF6F2 /* FATextField.m */; };
-		8B5AFCB373938654BB4067010C624CFC /* UITextView+Placeholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A75CD702E94F8C2710E4E77A76D86 /* UITextView+Placeholder-dummy.m */; };
-		8D763C572D830A060C603970A29F13DE /* FATextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8438680F2FBE3659D7F4E68AF968AA /* FATextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FAD3528A523E89D1A06D61BBA0B046E /* FALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7A3EC106A8210BFDCE282028696FD /* FALabel.m */; };
-		98360AD5AA345A9FDFD133FF39B270D4 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */; };
-		A5F144AB5FDE6C04FA7D799EF102214A /* UITextView+Placeholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC1D444557614FAE1335613F019DE28 /* UITextView+Placeholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8F916EFDA3B63B9B03EEB685150CB53 /* FAImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB240C3C799B37E34779A66F53336F8B /* FAImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6372C7397185053C58392CA6B1DA245 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C387A99B78B186EED5FA0268AA563549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */; };
-		C519B80E076ED1D7EF267F4DE21B54D6 /* FASegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188CD4D7AA71E7903FD444C7AA84723 /* FASegmentedControl.m */; };
-		C52A31FFE079FAE430EB887268863D2A /* FACollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA817BF38A2063F9BF748AF8C510B832 /* FACollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2BA0503796267982040A2B7241E9D4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B03AFC93EC2D10820D355CBEEC37D2 /* UIKit.framework */; };
-		D9C021F14B741723B7A378607BF8B370 /* FAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 114461499E6CDFD63310F65B4A5C504E /* FAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB1B9ADD8201E7965FA43FA52005474A /* UIView+FAView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD19596F169F77565B4CE86C7811C27 /* UIView+FAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9E4A60DA1F7191D9EC7D82FFC41A69C /* FATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D763F56406B490670A393CE7E5F80B15 /* FATextView.m */; };
-		EEFD588172899061270004BF66AD26A7 /* FAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD459F46B7C80AC0CAB4061DFC3BCC02 /* FAScrollView.m */; };
-		FA44C53F15B41EDDAE1C9EA435C74D53 /* FADesignable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA751DF23FD459C96F6D2613071B4799 /* FADesignable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB1DD7130DD157FE3BCD76216EB6A9D7 /* FATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC36985595F872D624CC030147504A5 /* FATableView.m */; };
+		8170FDBB60B0A60E3E4C138B63559B25 /* FADesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = E9898473B1427A3881E91243051442AE /* FADesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8557C71C82933BD30556754C3626A469 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */; };
+		8A22E56FCADEBF2C94D25B2687594A0A /* FATextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F1AA9FB3759477C034F405922686C3 /* FATextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963FBC429D9F02843EFF0D548A1B8732 /* FAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B4351C8A4F32E9BF88CE20530A7E7A /* FAButton.m */; };
+		9ED7E07E766A513A4F070CCBF8F1406D /* UITextView+Placeholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A75CD702E94F8C2710E4E77A76D86 /* UITextView+Placeholder-dummy.m */; };
+		A07342306C8C8B0C86C49B47250CA944 /* UIView+FAView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6618BEE85DCA469F1B621C63616E703 /* UIView+FAView.m */; };
+		A3C64694C5B34D90236870E562DCB610 /* FAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91088936A8CE7451D77290A83F3BC10D /* FAView.m */; };
+		AFDEA3B3BB343F251F8AF9AEBD6E6E7B /* UITextView+Placeholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC1D444557614FAE1335613F019DE28 /* UITextView+Placeholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23B1C3BF8E0B6A8EEE8B01C6C890DFC /* UIScrollView+FAScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AAEDD8D337CE51DD7E724A406E1510 /* UIScrollView+FAScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD9D2A23793F45D27340324481C64387 /* FACollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F35EF1B35C4B849003C6AAE9452A908 /* FACollectionView.m */; };
+		C3BF86809ECACD8EEB49BAD07B5AC2E7 /* FAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4BF671DD9D0995AF37277327198E8D /* FAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD99034EC875AB596766274B9D48B5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B03AFC93EC2D10820D355CBEEC37D2 /* UIKit.framework */; };
+		D79F2C7A5179B39284950FBFB7D17CFA /* UITextView_Placeholder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684C2D0F573B50C7DAFABA2E150984B2 /* UITextView_Placeholder.framework */; };
+		D902DA8A72184DCD00F6BCF2229B298D /* FAImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCB19E1C396F04E002683391CA2D1A0 /* FAImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E41AEFAC5FE1D7351749E82CA48FD0DA /* FACollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5269B8881641B40A025F94137E4A10B3 /* FACollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EE685429949B1FD566CBF641C2DB6FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C8F0C8A93C182467C92FB0CBE04ACDE;
-			remoteInfo = "UITextView+Placeholder";
-		};
 		4A8B4AEB14A28343890998E2EC5F2108 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 748199973148203D0B63B522D63A63DE;
+			remoteGlobalIDString = 9B458C623DEB01594F38D8C2B7381A09;
 			remoteInfo = FADesignable;
 		};
 		A958E175BCD8F86C11C540563D1D4834 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C8F0C8A93C182467C92FB0CBE04ACDE;
+			remoteGlobalIDString = FA0544F18171D245F61ED128A3769138;
 			remoteInfo = "UITextView+Placeholder";
 		};
 		BFB65E7B12DB1BE4A7C53371E5126CBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C8F0C8A93C182467C92FB0CBE04ACDE;
+			remoteGlobalIDString = FA0544F18171D245F61ED128A3769138;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		C5E3FA9C8B7F9EAC9709E9E61D3B90C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0544F18171D245F61ED128A3769138;
 			remoteInfo = "UITextView+Placeholder";
 		};
 		F232FBDAF7DF7231FAF80C1C287C63C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 748199973148203D0B63B522D63A63DE;
+			remoteGlobalIDString = 9B458C623DEB01594F38D8C2B7381A09;
 			remoteInfo = FADesignable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010246F6B00BBD83608C294E93C4028F /* FAProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAProgressView.h; sourceTree = "<group>"; };
 		0357127B8F811E2147E12FF2ED9DA1C8 /* Pods-FADesignable_Example-FADesignable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FADesignable_Example-FADesignable_Tests.modulemap"; sourceTree = "<group>"; };
-		04C31A2A9A108D10D404D7E5F339B4AB /* FADesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FADesignable.framework; path = FADesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BC7A3EC106A8210BFDCE282028696FD /* FALabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FALabel.m; sourceTree = "<group>"; };
-		0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITextView_Placeholder.framework; path = "UITextView+Placeholder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D877E179FF4A5F926420D298296F2D8 /* FALabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FALabel.h; sourceTree = "<group>"; };
-		114461499E6CDFD63310F65B4A5C504E /* FAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAView.h; sourceTree = "<group>"; };
+		04C31A2A9A108D10D404D7E5F339B4AB /* FADesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FADesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C9A165A5EEF400E067F8A9024C2B7C /* FADesignable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FADesignable.xcconfig; sourceTree = "<group>"; };
+		0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITextView_Placeholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F35EF1B35C4B849003C6AAE9452A908 /* FACollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FACollectionView.m; sourceTree = "<group>"; };
 		14B03AFC93EC2D10820D355CBEEC37D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		18C5F10F8E04B121BDBEA9340C79C0D6 /* FADesignable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FADesignable.modulemap; sourceTree = "<group>"; };
 		1B73BAA7E1786C1FBD2013D0C9FE8567 /* Pods-FADesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1CA7B7875A006638483091C6FFE9F96C /* UIView+FAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FAView.m"; sourceTree = "<group>"; };
-		27CF54E8D6AE6B8B111A14A38BDE8105 /* FASegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FASegmentedControl.h; sourceTree = "<group>"; };
+		2295ECAE69F6A2837A89ADD1285D15D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2874FC88D8F97FBB2A31914D25887D98 /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2B8438680F2FBE3659D7F4E68AF968AA /* FATextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextView.h; sourceTree = "<group>"; };
+		2B028A9DEF7CFAAB9953BA600F3CEB7D /* FAScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAScrollView.m; sourceTree = "<group>"; };
+		2F60675CE75C63AAED705DCA979E43B7 /* FAScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAScrollView.h; sourceTree = "<group>"; };
+		30AB710B6956F2C16E742D1D687FFEC1 /* FADesignable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FADesignable-prefix.pch"; sourceTree = "<group>"; };
 		3614514D5CD4A07A22D8583B36ADC3A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36B4050EFFC65FE7BAF36B0937E283D8 /* Pods-FADesignable_Example-FADesignable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FADesignable_Example-FADesignable_Tests-dummy.m"; sourceTree = "<group>"; };
 		3C5360A3BF503AA247DC96A5B4E93758 /* Pods-FADesignable_Example-FADesignable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-FADesignable_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		419FC062911CE2865CE74DED60A38CD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		473A0371D62DEB7B53432C634A206C9D /* FACollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FACollectionView.m; sourceTree = "<group>"; };
-		51A16313BDD06F0E5D0988737BE9B3E9 /* FAButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAButton.h; sourceTree = "<group>"; };
-		5866B9A011915FE045A24C52BFCAC6CF /* FATextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextField.h; sourceTree = "<group>"; };
-		59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FADesignable_Example.framework; path = "Pods-FADesignable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4491743AD90FF8F8686478BCEB5D1A99 /* FATextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextField.m; sourceTree = "<group>"; };
+		4869682F9DC829C57DB097A1A222B6F9 /* FADesignable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FADesignable-umbrella.h"; sourceTree = "<group>"; };
+		4E4BF671DD9D0995AF37277327198E8D /* FAButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAButton.h; sourceTree = "<group>"; };
+		5269B8881641B40A025F94137E4A10B3 /* FACollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FACollectionView.h; sourceTree = "<group>"; };
+		59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADesignable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E997B90FFDCE5E987FBE8F5DDF670D1 /* FASegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FASegmentedControl.h; sourceTree = "<group>"; };
+		5F37DC98595EA2E8C725FBA4BF6276D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		60C86566CB99C557CA0165431B88B2E6 /* Pods-FADesignable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FADesignable_Example.modulemap"; sourceTree = "<group>"; };
 		684C2D0F573B50C7DAFABA2E150984B2 /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITextView_Placeholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EC36985595F872D624CC030147504A5 /* FATableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATableView.m; sourceTree = "<group>"; };
+		69F1AA9FB3759477C034F405922686C3 /* FATextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextField.h; sourceTree = "<group>"; };
+		71EC0668BFB74994280C8FEC9C70FB81 /* FAImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		75347E9F65B953DAE3C34FCEBCB5E711 /* FATableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATableView.m; sourceTree = "<group>"; };
 		756A75CD702E94F8C2710E4E77A76D86 /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
 		782205B25FC80CB5912FEC0DEF541500 /* Pods-FADesignable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FADesignable_Example-dummy.m"; sourceTree = "<group>"; };
+		7BD3E671FA1D12E02BFF918A18C09747 /* FATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATableView.h; sourceTree = "<group>"; };
 		7FC1D444557614FAE1335613F019DE28 /* UITextView+Placeholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-umbrella.h"; sourceTree = "<group>"; };
+		828517671D17FC6DF28EE2978B487896 /* FAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAView.h; sourceTree = "<group>"; };
 		83D39499D433EBDD5D056EA46794F627 /* Pods-FADesignable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FADesignable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88AACAD9C5CCB273F635954635C9ACD6 /* FATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATableView.h; sourceTree = "<group>"; };
 		892BC16B4894E636B9A4E530B01E19AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FADesignable.xcconfig; sourceTree = "<group>"; };
-		9188CD4D7AA71E7903FD444C7AA84723 /* FASegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FASegmentedControl.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D66A9C1D9F805A9B2CA48E9A915B603 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91088936A8CE7451D77290A83F3BC10D /* FAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITextView+Placeholder.xcconfig"; sourceTree = "<group>"; };
+		9BCB19E1C396F04E002683391CA2D1A0 /* FAImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
 		9F1D756BBF54A485666F5F37AD930DDF /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9F45BEB53FF8F345F475E93AF33F13B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F75CBD04E0F62A04FAACC7C45A38E29 /* FAImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
 		A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "Sources/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		A45E415767EADC8090D25678C5978E6D /* FADesignable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FADesignable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5AFAB90E772E5B28659C0D15BDC39F5 /* FADesignable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FADesignable-dummy.m"; sourceTree = "<group>"; };
+		A6618BEE85DCA469F1B621C63616E703 /* UIView+FAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FAView.m"; sourceTree = "<group>"; };
+		B341B0025D708BF82EA036AE3DB2D447 /* FAProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAProgressView.m; sourceTree = "<group>"; };
 		B386DE3EDBD7316C6993518884EE6DF6 /* Pods-FADesignable_Example-FADesignable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-FADesignable_Tests-resources.sh"; sourceTree = "<group>"; };
-		B3B52EA1F4BBF9854C5D23060A4DF6F2 /* FATextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextField.m; sourceTree = "<group>"; };
 		B454302A08C89E47BBD1DCEC1088C05D /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FADesignable_Example-FADesignable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B46A19DA4086806AF74221714BB05033 /* Pods-FADesignable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FADesignable_Example-umbrella.h"; sourceTree = "<group>"; };
-		B56C6D908969065D6A537B80C5C47506 /* FAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAView.m; sourceTree = "<group>"; };
-		BA751DF23FD459C96F6D2613071B4799 /* FADesignable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FADesignable-umbrella.h"; sourceTree = "<group>"; };
 		C02BD1500088758876F5E219830E4C27 /* UITextView+Placeholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UITextView+Placeholder.modulemap"; sourceTree = "<group>"; };
-		C49DE8D2004D3F3B160C4DFF6D4127BE /* FAButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAButton.m; sourceTree = "<group>"; };
+		C57008FF9DE8B7975FA661C2EA313B0F /* FATextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextView.m; sourceTree = "<group>"; };
 		CA584C4B87886EA0B98A557053EEBF08 /* Pods-FADesignable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CBD19596F169F77565B4CE86C7811C27 /* UIView+FAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FAView.h"; sourceTree = "<group>"; };
-		CD32F9B8445ECAC65B4E05A1D0FDD05E /* FAScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAScrollView.h; sourceTree = "<group>"; };
-		D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FADesignable_Example_FADesignable_Tests.framework; path = "Pods-FADesignable_Example-FADesignable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADesignable_Example_FADesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D5A0A86C0960EB6DD073A4335500B6E1 /* Pods-FADesignable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-resources.sh"; sourceTree = "<group>"; };
-		D763F56406B490670A393CE7E5F80B15 /* FATextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FATextView.m; sourceTree = "<group>"; };
-		DB240C3C799B37E34779A66F53336F8B /* FAImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		D9AAEDD8D337CE51DD7E724A406E1510 /* UIScrollView+FAScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FAScrollView.h"; sourceTree = "<group>"; };
 		DBB1CB6153567A64226E960B3CCF5D92 /* Pods-FADesignable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DC0060B14C37C37D9E3A6A3BB293E2B1 /* FADesignable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FADesignable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DC7D4680567F1C8CDE1FD8EE1E25A1BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DD459F46B7C80AC0CAB4061DFC3BCC02 /* FAScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAScrollView.m; sourceTree = "<group>"; };
-		DF9618AAE8937D51AB6B58C7262280EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0EF8A0FA6DC2FD593C883A3E7B526A6 /* Pods-FADesignable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FADesignable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E12CBAF2A5345979C52E4F1D9C626850 /* FADesignable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FADesignable.modulemap; sourceTree = "<group>"; };
 		E2242E2D4FFF4855717D2163FC553C67 /* UITextView+Placeholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-prefix.pch"; sourceTree = "<group>"; };
 		E2F452A4C443856A93BE12D1026E76EB /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF3C99CF7FDE27E6712CA0736437B42F /* FADesignable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FADesignable.h; path = FADesignable/Classes/FADesignable.h; sourceTree = "<group>"; };
+		E3A59FFCE227809D889EFB97D8B9C3EE /* UIScrollView+FAScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FAScrollView.m"; sourceTree = "<group>"; };
+		E7D18E9A6FCB61307321102EDCE6D4EB /* FALabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FALabel.h; sourceTree = "<group>"; };
+		E94563F73510248A98667C8E1CC30B31 /* FALabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FALabel.m; sourceTree = "<group>"; };
+		E9898473B1427A3881E91243051442AE /* FADesignable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FADesignable.h; path = FADesignable/Classes/FADesignable.h; sourceTree = "<group>"; };
+		F0196E424039B5A68CDAB10DAB4D5E0A /* FASegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FASegmentedControl.m; sourceTree = "<group>"; };
 		F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "Sources/UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		F2125F1E7A18A292A6E2D628709FB9FD /* FADesignable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FADesignable-prefix.pch"; sourceTree = "<group>"; };
-		F9E505DBA287644881A8B08A976BD2A1 /* FADesignable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FADesignable-dummy.m"; sourceTree = "<group>"; };
-		FA817BF38A2063F9BF748AF8C510B832 /* FACollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FACollectionView.h; sourceTree = "<group>"; };
+		F5C2685AB4E635C62A410831F4D11A7C /* FATextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextView.h; sourceTree = "<group>"; };
+		F6B4351C8A4F32E9BF88CE20530A7E7A /* FAButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAButton.m; sourceTree = "<group>"; };
+		F86305D0B5736A5B3276431FC2F7912D /* UIView+FAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FAView.h"; sourceTree = "<group>"; };
 		FACA4DB1BD88F9803BB77D04EE84F31D /* Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example-FADesignable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FFA95E8495E53326FAF919D8019A0FA9 /* FAProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAProgressView.m; sourceTree = "<group>"; };
+		FDB6D06CE66BC44C4362A082F5200523 /* FAProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAProgressView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05F296B6044E4633D1D57405E6F2882E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04112B5A82BB04376432DA5BCA9E9A00 /* Foundation.framework in Frameworks */,
+				D79F2C7A5179B39284950FBFB7D17CFA /* UITextView_Placeholder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1702E1828B85A002EF914528CED0E479 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,12 +183,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		296016394BD04C308EB3581618B09E2B /* Frameworks */ = {
+		A301F9AD094893A1595CC1D917BABA2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C387A99B78B186EED5FA0268AA563549 /* Foundation.framework in Frameworks */,
-				D2BA0503796267982040A2B7241E9D4F /* UIKit.framework in Frameworks */,
+				56E0C6C0FB4547DB618EB1CCD5A039D7 /* Foundation.framework in Frameworks */,
+				CFD99034EC875AB596766274B9D48B5B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,31 +200,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F327D59E68435DAEF1A10801D64BD3DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5032008C32055D08F7050B9636A39DB9 /* Foundation.framework in Frameworks */,
-				3F6C42FA75F49C5A4305FCC6C583A8BB /* UITextView_Placeholder.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		058465F64C7BEC8772CB10C2129FEAA8 /* FADesignable */ = {
-			isa = PBXGroup;
-			children = (
-				EF3C99CF7FDE27E6712CA0736437B42F /* FADesignable.h */,
-				F6BF5401F8CD08A7C52627B6A5E0BBCB /* Categories */,
-				7A7DD4EEFBA7CD6E2441CCE918D78D11 /* Controls */,
-				B75BE9D5A03AD4F7991BFE539C84DBC9 /* Pod */,
-				6ACDA26BE3BF08367773DEEE1EA09C2C /* Support Files */,
-			);
-			name = FADesignable;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2C9E82CD5E368FACDA8305E3C32DD4D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,56 +255,12 @@
 			path = "../Target Support Files/UITextView+Placeholder";
 			sourceTree = "<group>";
 		};
-		6ACDA26BE3BF08367773DEEE1EA09C2C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				18C5F10F8E04B121BDBEA9340C79C0D6 /* FADesignable.modulemap */,
-				8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */,
-				F9E505DBA287644881A8B08A976BD2A1 /* FADesignable-dummy.m */,
-				F2125F1E7A18A292A6E2D628709FB9FD /* FADesignable-prefix.pch */,
-				BA751DF23FD459C96F6D2613071B4799 /* FADesignable-umbrella.h */,
-				DF9618AAE8937D51AB6B58C7262280EE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FADesignable";
-			sourceTree = "<group>";
-		};
 		707630932B6B43158B62BC1E0C06D75A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				058465F64C7BEC8772CB10C2129FEAA8 /* FADesignable */,
+				B7011ED1A308D3EEAC7FB1EF2B21BCA8 /* FADesignable */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7A7DD4EEFBA7CD6E2441CCE918D78D11 /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				51A16313BDD06F0E5D0988737BE9B3E9 /* FAButton.h */,
-				C49DE8D2004D3F3B160C4DFF6D4127BE /* FAButton.m */,
-				FA817BF38A2063F9BF748AF8C510B832 /* FACollectionView.h */,
-				473A0371D62DEB7B53432C634A206C9D /* FACollectionView.m */,
-				DB240C3C799B37E34779A66F53336F8B /* FAImageView.h */,
-				9F75CBD04E0F62A04FAACC7C45A38E29 /* FAImageView.m */,
-				0D877E179FF4A5F926420D298296F2D8 /* FALabel.h */,
-				0BC7A3EC106A8210BFDCE282028696FD /* FALabel.m */,
-				010246F6B00BBD83608C294E93C4028F /* FAProgressView.h */,
-				FFA95E8495E53326FAF919D8019A0FA9 /* FAProgressView.m */,
-				CD32F9B8445ECAC65B4E05A1D0FDD05E /* FAScrollView.h */,
-				DD459F46B7C80AC0CAB4061DFC3BCC02 /* FAScrollView.m */,
-				27CF54E8D6AE6B8B111A14A38BDE8105 /* FASegmentedControl.h */,
-				9188CD4D7AA71E7903FD444C7AA84723 /* FASegmentedControl.m */,
-				88AACAD9C5CCB273F635954635C9ACD6 /* FATableView.h */,
-				6EC36985595F872D624CC030147504A5 /* FATableView.m */,
-				5866B9A011915FE045A24C52BFCAC6CF /* FATextField.h */,
-				B3B52EA1F4BBF9854C5D23060A4DF6F2 /* FATextField.m */,
-				2B8438680F2FBE3659D7F4E68AF968AA /* FATextView.h */,
-				D763F56406B490670A393CE7E5F80B15 /* FATextView.m */,
-				114461499E6CDFD63310F65B4A5C504E /* FAView.h */,
-				B56C6D908969065D6A537B80C5C47506 /* FAView.m */,
-			);
-			name = Controls;
-			path = FADesignable/Classes/Controls;
 			sourceTree = "<group>";
 		};
 		7C693BF2DE71DFBEAA606D48C3E677D2 /* Frameworks */ = {
@@ -344,8 +291,17 @@
 				A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */,
 				57904B1AA1374D3915628DC8E059E1E6 /* Support Files */,
 			);
-			name = "UITextView+Placeholder";
 			path = "UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		9B5FF09B94D354CB60EAD94552E3C19D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A45E415767EADC8090D25678C5978E6D /* FADesignable.podspec */,
+				2295ECAE69F6A2837A89ADD1285D15D3 /* LICENSE */,
+				5F37DC98595EA2E8C725FBA4BF6276D8 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A0C9983810570E3C02F76CA079A629BC /* Pods */ = {
@@ -356,14 +312,73 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B75BE9D5A03AD4F7991BFE539C84DBC9 /* Pod */ = {
+		AA1D6D96BB83ED898B14B4F4659711E1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC0060B14C37C37D9E3A6A3BB293E2B1 /* FADesignable.podspec */,
-				DC7D4680567F1C8CDE1FD8EE1E25A1BE /* LICENSE */,
-				419FC062911CE2865CE74DED60A38CD8 /* README.md */,
+				E12CBAF2A5345979C52E4F1D9C626850 /* FADesignable.modulemap */,
+				08C9A165A5EEF400E067F8A9024C2B7C /* FADesignable.xcconfig */,
+				A5AFAB90E772E5B28659C0D15BDC39F5 /* FADesignable-dummy.m */,
+				30AB710B6956F2C16E742D1D687FFEC1 /* FADesignable-prefix.pch */,
+				4869682F9DC829C57DB097A1A222B6F9 /* FADesignable-umbrella.h */,
+				8D66A9C1D9F805A9B2CA48E9A915B603 /* Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FADesignable";
+			sourceTree = "<group>";
+		};
+		AA5353E8ACB6D7CCBE5DC039423B0DA1 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4E4BF671DD9D0995AF37277327198E8D /* FAButton.h */,
+				F6B4351C8A4F32E9BF88CE20530A7E7A /* FAButton.m */,
+				5269B8881641B40A025F94137E4A10B3 /* FACollectionView.h */,
+				0F35EF1B35C4B849003C6AAE9452A908 /* FACollectionView.m */,
+				9BCB19E1C396F04E002683391CA2D1A0 /* FAImageView.h */,
+				71EC0668BFB74994280C8FEC9C70FB81 /* FAImageView.m */,
+				E7D18E9A6FCB61307321102EDCE6D4EB /* FALabel.h */,
+				E94563F73510248A98667C8E1CC30B31 /* FALabel.m */,
+				FDB6D06CE66BC44C4362A082F5200523 /* FAProgressView.h */,
+				B341B0025D708BF82EA036AE3DB2D447 /* FAProgressView.m */,
+				2F60675CE75C63AAED705DCA979E43B7 /* FAScrollView.h */,
+				2B028A9DEF7CFAAB9953BA600F3CEB7D /* FAScrollView.m */,
+				5E997B90FFDCE5E987FBE8F5DDF670D1 /* FASegmentedControl.h */,
+				F0196E424039B5A68CDAB10DAB4D5E0A /* FASegmentedControl.m */,
+				7BD3E671FA1D12E02BFF918A18C09747 /* FATableView.h */,
+				75347E9F65B953DAE3C34FCEBCB5E711 /* FATableView.m */,
+				69F1AA9FB3759477C034F405922686C3 /* FATextField.h */,
+				4491743AD90FF8F8686478BCEB5D1A99 /* FATextField.m */,
+				F5C2685AB4E635C62A410831F4D11A7C /* FATextView.h */,
+				C57008FF9DE8B7975FA661C2EA313B0F /* FATextView.m */,
+				828517671D17FC6DF28EE2978B487896 /* FAView.h */,
+				91088936A8CE7451D77290A83F3BC10D /* FAView.m */,
+			);
+			name = Controls;
+			path = FADesignable/Classes/Controls;
+			sourceTree = "<group>";
+		};
+		AED8370F86430334D365D433453D6C43 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D9AAEDD8D337CE51DD7E724A406E1510 /* UIScrollView+FAScrollView.h */,
+				E3A59FFCE227809D889EFB97D8B9C3EE /* UIScrollView+FAScrollView.m */,
+				F86305D0B5736A5B3276431FC2F7912D /* UIView+FAView.h */,
+				A6618BEE85DCA469F1B621C63616E703 /* UIView+FAView.m */,
+			);
+			name = Categories;
+			path = FADesignable/Classes/Categories;
+			sourceTree = "<group>";
+		};
+		B7011ED1A308D3EEAC7FB1EF2B21BCA8 /* FADesignable */ = {
+			isa = PBXGroup;
+			children = (
+				E9898473B1427A3881E91243051442AE /* FADesignable.h */,
+				AED8370F86430334D365D433453D6C43 /* Categories */,
+				AA5353E8ACB6D7CCBE5DC039423B0DA1 /* Controls */,
+				9B5FF09B94D354CB60EAD94552E3C19D /* Pod */,
+				AA1D6D96BB83ED898B14B4F4659711E1 /* Support Files */,
+			);
+			name = FADesignable;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BD97E4D5D375FACE09B8629B06D25090 /* Pods-FADesignable_Example */ = {
@@ -393,46 +408,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F6BF5401F8CD08A7C52627B6A5E0BBCB /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				CBD19596F169F77565B4CE86C7811C27 /* UIView+FAView.h */,
-				1CA7B7875A006638483091C6FFE9F96C /* UIView+FAView.m */,
-			);
-			name = Categories;
-			path = FADesignable/Classes/Categories;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		181AD906D77DB0B1A8812FB2E0EEFBBD /* Headers */ = {
+		5B909144290465C2F0CB8A0A8C46B7C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F144AB5FDE6C04FA7D799EF102214A /* UITextView+Placeholder-umbrella.h in Headers */,
-				B6372C7397185053C58392CA6B1DA245 /* UITextView+Placeholder.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		382F5BEA9737DCB10B57E43AC32E6061 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				234A24654DA5E61BABFB96CB64F5DAD1 /* FAButton.h in Headers */,
-				C52A31FFE079FAE430EB887268863D2A /* FACollectionView.h in Headers */,
-				FA44C53F15B41EDDAE1C9EA435C74D53 /* FADesignable-umbrella.h in Headers */,
-				3E0E27A409B58225879202B46F2B29A9 /* FADesignable.h in Headers */,
-				A8F916EFDA3B63B9B03EEB685150CB53 /* FAImageView.h in Headers */,
-				5D76BC8821D58AE8B34F36DC4F125D76 /* FALabel.h in Headers */,
-				3F33A55685DC9E1B54F8020806007859 /* FAProgressView.h in Headers */,
-				856C4136BBD92C80C4A7AAE9923ECD13 /* FAScrollView.h in Headers */,
-				71D70DB2C5BA9D29176ED0F40AA26598 /* FASegmentedControl.h in Headers */,
-				0A70435E36A9C3EA1C9964953A315BC4 /* FATableView.h in Headers */,
-				88CF507E18B723469939C2BF23AB4AD6 /* FATextField.h in Headers */,
-				8D763C572D830A060C603970A29F13DE /* FATextView.h in Headers */,
-				D9C021F14B741723B7A378607BF8B370 /* FAView.h in Headers */,
-				DB1B9ADD8201E7965FA43FA52005474A /* UIView+FAView.h in Headers */,
+				C3BF86809ECACD8EEB49BAD07B5AC2E7 /* FAButton.h in Headers */,
+				E41AEFAC5FE1D7351749E82CA48FD0DA /* FACollectionView.h in Headers */,
+				0E4EA1467BCC5680F92A5D4009BB18A7 /* FADesignable-umbrella.h in Headers */,
+				8170FDBB60B0A60E3E4C138B63559B25 /* FADesignable.h in Headers */,
+				D902DA8A72184DCD00F6BCF2229B298D /* FAImageView.h in Headers */,
+				75896BD777EDFF3CC95B345C5E0BC1A9 /* FALabel.h in Headers */,
+				0E9BC5C2A6EEFA878F86789560B79605 /* FAProgressView.h in Headers */,
+				7C4BE016492BCC127E88F2873CF891DE /* FAScrollView.h in Headers */,
+				6D170F92F4A345C006BE048F87E042A5 /* FASegmentedControl.h in Headers */,
+				6E1C634134378CF68C93F015183F39B5 /* FATableView.h in Headers */,
+				8A22E56FCADEBF2C94D25B2687594A0A /* FATextField.h in Headers */,
+				444A757FBCD4CB7CCEE90DFA2934948A /* FATextView.h in Headers */,
+				3831A70717E24E4B0B03EEA9ACC00827 /* FAView.h in Headers */,
+				B23B1C3BF8E0B6A8EEE8B01C6C890DFC /* UIScrollView+FAScrollView.h in Headers */,
+				611001EE7C6F652DB1B697446CD6D097 /* UIView+FAView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +446,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A123C422CFEA2E3EA3E027468B74D3 /* Pods-FADesignable_Example-FADesignable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C206A766392BA50D5839BE42CDEEF062 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDEA3B3BB343F251F8AF9AEBD6E6E7B /* UITextView+Placeholder-umbrella.h in Headers */,
+				60FD667BBD58E1DFCF4D94F5ADD797C2 /* UITextView+Placeholder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,35 +480,18 @@
 			productReference = D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */ = {
+		9B458C623DEB01594F38D8C2B7381A09 /* FADesignable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 302BF0250C265CD5D76E98F267A46B35 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */;
+			buildConfigurationList = 8340388C9CC5C0B5713B19B66CEC8C75 /* Build configuration list for PBXNativeTarget "FADesignable" */;
 			buildPhases = (
-				3270D83A0F89BE0DDD91E030D0195BC5 /* Sources */,
-				296016394BD04C308EB3581618B09E2B /* Frameworks */,
-				181AD906D77DB0B1A8812FB2E0EEFBBD /* Headers */,
+				1330AABF8506867D6E5DE22F5BF662A5 /* Sources */,
+				05F296B6044E4633D1D57405E6F2882E /* Frameworks */,
+				5B909144290465C2F0CB8A0A8C46B7C4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "UITextView+Placeholder";
-			productName = "UITextView+Placeholder";
-			productReference = 0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		748199973148203D0B63B522D63A63DE /* FADesignable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9DC6EB2C4A31BAA351C046A23DD3F3BC /* Build configuration list for PBXNativeTarget "FADesignable" */;
-			buildPhases = (
-				901C460DCD6E49F6CDFE199C655847C5 /* Sources */,
-				F327D59E68435DAEF1A10801D64BD3DB /* Frameworks */,
-				382F5BEA9737DCB10B57E43AC32E6061 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F76DAA8077E61C4DC0055A55040944B /* PBXTargetDependency */,
+				4088E561CA09175EADF9FC8D28C1408A /* PBXTargetDependency */,
 			);
 			name = FADesignable;
 			productName = FADesignable;
@@ -528,6 +517,23 @@
 			productReference = 59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FA0544F18171D245F61ED128A3769138 /* UITextView+Placeholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D732E9DC85035CE77B570C5FA5778D4 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */;
+			buildPhases = (
+				2F6AB1204D793380890CE3D916B83912 /* Sources */,
+				A301F9AD094893A1595CC1D917BABA2A /* Frameworks */,
+				C206A766392BA50D5839BE42CDEEF062 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView+Placeholder";
+			productName = "UITextView+Placeholder";
+			productReference = 0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -549,10 +555,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				748199973148203D0B63B522D63A63DE /* FADesignable */,
+				9B458C623DEB01594F38D8C2B7381A09 /* FADesignable */,
 				E23C9C7E6492C7C2B0D7637CA55782FA /* Pods-FADesignable_Example */,
 				57772481B293428732914DDECE783DC7 /* Pods-FADesignable_Example-FADesignable_Tests */,
-				6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */,
+				FA0544F18171D245F61ED128A3769138 /* UITextView+Placeholder */,
 			);
 		};
 /* End PBXProject section */
@@ -566,32 +572,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3270D83A0F89BE0DDD91E030D0195BC5 /* Sources */ = {
+		1330AABF8506867D6E5DE22F5BF662A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5AFCB373938654BB4067010C624CFC /* UITextView+Placeholder-dummy.m in Sources */,
-				98360AD5AA345A9FDFD133FF39B270D4 /* UITextView+Placeholder.m in Sources */,
+				963FBC429D9F02843EFF0D548A1B8732 /* FAButton.m in Sources */,
+				BD9D2A23793F45D27340324481C64387 /* FACollectionView.m in Sources */,
+				3AA3020AA098C3C61056AE97F9869B26 /* FADesignable-dummy.m in Sources */,
+				38593F59D73C21FD77F447D1DC287BF9 /* FAImageView.m in Sources */,
+				32A3550BB391518A137443009BDFE4FB /* FALabel.m in Sources */,
+				5C65DFC44AAB8271C12F6CFED849344B /* FAProgressView.m in Sources */,
+				630901CDECF439BC4DCC5F1FD593E120 /* FAScrollView.m in Sources */,
+				6486DF171359DB2BCF47A5610BDF3E45 /* FASegmentedControl.m in Sources */,
+				1294CFCC782AECB57F62CDAD02B19C0E /* FATableView.m in Sources */,
+				1CFF3B94ADD7453F3A44F36C25942BBE /* FATextField.m in Sources */,
+				44574A2D26BF3E39AFD040EFFCFBE6B5 /* FATextView.m in Sources */,
+				A3C64694C5B34D90236870E562DCB610 /* FAView.m in Sources */,
+				00E8BD55F1C38156BDB8FD555C08DB34 /* UIScrollView+FAScrollView.m in Sources */,
+				A07342306C8C8B0C86C49B47250CA944 /* UIView+FAView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		901C460DCD6E49F6CDFE199C655847C5 /* Sources */ = {
+		2F6AB1204D793380890CE3D916B83912 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20711BF8D24530C510F165F3A7BED323 /* FAButton.m in Sources */,
-				5FE179D7DAA078EF7C1B8FC9D3EEAAD5 /* FACollectionView.m in Sources */,
-				0699E5165A1435F3BB9D9D47550B6D97 /* FADesignable-dummy.m in Sources */,
-				1134A7E13E65E9E628427C5DDB8DAD25 /* FAImageView.m in Sources */,
-				8FAD3528A523E89D1A06D61BBA0B046E /* FALabel.m in Sources */,
-				5DEAE3A40E547294AE88D58C67A672D5 /* FAProgressView.m in Sources */,
-				EEFD588172899061270004BF66AD26A7 /* FAScrollView.m in Sources */,
-				C519B80E076ED1D7EF267F4DE21B54D6 /* FASegmentedControl.m in Sources */,
-				FB1DD7130DD157FE3BCD76216EB6A9D7 /* FATableView.m in Sources */,
-				88D3BB6CE39B7A02D11F0E9DA599BBA3 /* FATextField.m in Sources */,
-				E9E4A60DA1F7191D9EC7D82FFC41A69C /* FATextView.m in Sources */,
-				7CCB92ED6AF7B118593B68A4A4B4BFAE /* FAView.m in Sources */,
-				828DE9ED910E5F113391D9E2A33EF1CF /* UIView+FAView.m in Sources */,
+				9ED7E07E766A513A4F070CCBF8F1406D /* UITextView+Placeholder-dummy.m in Sources */,
+				8557C71C82933BD30556754C3626A469 /* UITextView+Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,39 +616,39 @@
 		03F5CC2B7604357A914AE8CE33F14B65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FADesignable;
-			target = 748199973148203D0B63B522D63A63DE /* FADesignable */;
+			target = 9B458C623DEB01594F38D8C2B7381A09 /* FADesignable */;
 			targetProxy = 4A8B4AEB14A28343890998E2EC5F2108 /* PBXContainerItemProxy */;
 		};
-		3F76DAA8077E61C4DC0055A55040944B /* PBXTargetDependency */ = {
+		4088E561CA09175EADF9FC8D28C1408A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UITextView+Placeholder";
-			target = 6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */;
-			targetProxy = 0EE685429949B1FD566CBF641C2DB6FE /* PBXContainerItemProxy */;
+			target = FA0544F18171D245F61ED128A3769138 /* UITextView+Placeholder */;
+			targetProxy = C5E3FA9C8B7F9EAC9709E9E61D3B90C4 /* PBXContainerItemProxy */;
 		};
 		5EDDA2262E5C79DED1FBDA26535B59EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UITextView+Placeholder";
-			target = 6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */;
+			target = FA0544F18171D245F61ED128A3769138 /* UITextView+Placeholder */;
 			targetProxy = BFB65E7B12DB1BE4A7C53371E5126CBA /* PBXContainerItemProxy */;
 		};
 		6C2D81AB711C654E100F12154FB0C9F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FADesignable;
-			target = 748199973148203D0B63B522D63A63DE /* FADesignable */;
+			target = 9B458C623DEB01594F38D8C2B7381A09 /* FADesignable */;
 			targetProxy = F232FBDAF7DF7231FAF80C1C287C63C3 /* PBXContainerItemProxy */;
 		};
 		B80BB64CD0045F95AE2EB755317CED71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UITextView+Placeholder";
-			target = 6C8F0C8A93C182467C92FB0CBE04ACDE /* UITextView+Placeholder */;
+			target = FA0544F18171D245F61ED128A3769138 /* UITextView+Placeholder */;
 			targetProxy = A958E175BCD8F86C11C540563D1D4834 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1008FD102BA7239A8628797C0DC83A8E /* Debug */ = {
+		02DDAA1EDF7F7A6D8E8A3098494C09E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */;
+			baseConfigurationReference = 98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -652,21 +659,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FADesignable/FADesignable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FADesignable/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FADesignable/FADesignable.modulemap";
-				PRODUCT_NAME = FADesignable;
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				PRODUCT_NAME = UITextView_Placeholder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		269585147D02A71E668CEA7962DAF78F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -795,36 +803,6 @@
 			};
 			name = Debug;
 		};
-		5817EE3DEF85113612ABD2BD53D41147 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
-				PRODUCT_NAME = UITextView_Placeholder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5FD556E612D0E3ACA10C467ECFDB4E99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B73BAA7E1786C1FBD2013D0C9FE8567 /* Pods-FADesignable_Example.release.xcconfig */;
@@ -857,6 +835,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6037C58CF55932916BE35B78EF991DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				PRODUCT_NAME = UITextView_Placeholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		817350C80DE7AE5EE41483C3E351D34F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -949,9 +956,38 @@
 			};
 			name = Release;
 		};
-		BA997093A61EA802D281336F4EC86EAF /* Release */ = {
+		BC50EF0725011D4F22601994D3A1094C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E39F3F7F8C084AF980282DC8E7BF384 /* FADesignable.xcconfig */;
+			baseConfigurationReference = 08C9A165A5EEF400E067F8A9024C2B7C /* FADesignable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FADesignable/FADesignable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FADesignable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FADesignable/FADesignable.modulemap";
+				PRODUCT_NAME = FADesignable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0062F73B23C615B4BBD184874C8FB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C9A165A5EEF400E067F8A9024C2B7C /* FADesignable.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -979,35 +1015,6 @@
 			};
 			name = Release;
 		};
-		BE606C46A19C011E2DCDC1B9321C7DE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
-				PRODUCT_NAME = UITextView_Placeholder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1029,20 +1036,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		302BF0250C265CD5D76E98F267A46B35 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */ = {
+		5D732E9DC85035CE77B570C5FA5778D4 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE606C46A19C011E2DCDC1B9321C7DE4 /* Debug */,
-				5817EE3DEF85113612ABD2BD53D41147 /* Release */,
+				6037C58CF55932916BE35B78EF991DCC /* Debug */,
+				02DDAA1EDF7F7A6D8E8A3098494C09E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DC6EB2C4A31BAA351C046A23DD3F3BC /* Build configuration list for PBXNativeTarget "FADesignable" */ = {
+		8340388C9CC5C0B5713B19B66CEC8C75 /* Build configuration list for PBXNativeTarget "FADesignable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1008FD102BA7239A8628797C0DC83A8E /* Debug */,
-				BA997093A61EA802D281336F4EC86EAF /* Release */,
+				BC50EF0725011D4F22601994D3A1094C /* Debug */,
+				E0062F73B23C615B4BBD184874C8FB9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

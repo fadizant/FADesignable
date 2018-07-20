@@ -9,8 +9,17 @@
 #define FADesignable_h
 
 #import "UIView+FAView.h"
-#import "FAView.h"
-#import "FALabel.h"
+#import "UIScrollView+FAScrollView.h"
 #import "FAButton.h"
+#import "FACollectionView.h"
+#import "FAImageView.h"
+#import "FALabel.h"
+#import "FAProgressView.h"
+#import "FAScrollView.h"
+#import "FASegmentedControl.h"
+#import "FATableView.h"
+#import "FATextField.h"
+#import "FATextView.h"
+#import "FAView.h"
 
 #endif /* FADesignable_h */

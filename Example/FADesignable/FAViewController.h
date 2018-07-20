@@ -10,4 +10,5 @@
 #import "FAView.h"
 @interface FAViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet FATableView *tableView;
 @end

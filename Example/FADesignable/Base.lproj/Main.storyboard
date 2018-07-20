@@ -288,6 +288,9 @@
                             <constraint firstItem="Hk7-KQ-wTi" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="TXS-lQ-4hE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="X4T-rr-8Tv" id="gN6-j6-tBB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [_tableView refreshControlColor:[UIColor redColor] refreshView:^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+            [_tableView endRefreshing];
+        });
+    }];
 }
 
 - (void)didReceiveMemoryWarning
