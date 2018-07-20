@@ -260,6 +260,9 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.29803921570000003" green="0.67450980390000004" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textLimitCharacters">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-rr-8Tv" customClass="FATableView">
@@ -281,11 +284,45 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </tableView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6B8-dg-K54" customClass="FAFloatLabelTextView">
+                                <rect key="frame" x="67.5" y="348.5" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="j5q-fU-xNP"/>
+                                    <constraint firstAttribute="height" constant="40" id="mK4-oR-2C7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="plcaeholder"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderTextColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="1" green="0.0039215686269999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.0039215686269999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isBottomBorder" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="floatingLabelTextColor">
+                                        <color key="value" red="0.20784313730000001" green="0.6588235294" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="editingBorderColor">
+                                        <color key="value" red="0.92549019610000005" green="0.6588235294" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Hk7-KQ-wTi" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="Bit-HH-0gN"/>
+                            <constraint firstItem="6B8-dg-K54" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="I2q-Of-Mut"/>
                             <constraint firstItem="Hk7-KQ-wTi" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="TXS-lQ-4hE"/>
+                            <constraint firstItem="6B8-dg-K54" firstAttribute="top" secondItem="Hk7-KQ-wTi" secondAttribute="bottom" constant="10" id="tR2-sS-IVO"/>
                         </constraints>
                     </view>
                     <connections>

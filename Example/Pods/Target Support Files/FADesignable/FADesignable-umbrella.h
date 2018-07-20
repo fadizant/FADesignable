@@ -21,8 +21,10 @@
 #import "FASegmentedControl.h"
 #import "FATableView.h"
 #import "FATextField.h"
-#import "FATextView.h"
 #import "FAView.h"
+#import "FAFloatLabelTextView.h"
+#import "FATextView.h"
+#import "NSString+FATextDirection.h"
 #import "FADesignable.h"
 
 FOUNDATION_EXPORT double FADesignableVersionNumber;

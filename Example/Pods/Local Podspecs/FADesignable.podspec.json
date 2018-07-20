@@ -1,7 +1,7 @@
 {
   "name": "FADesignable",
-  "version": "0.1.0",
-  "summary": "Boarder and shadow for Views",
+  "version": "0.1.1",
+  "summary": "add text limit in textview",
   "homepage": "https://github.com/fadizant/FADesignable",
   "license": {
     "type": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/fadizant/FADesignable.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

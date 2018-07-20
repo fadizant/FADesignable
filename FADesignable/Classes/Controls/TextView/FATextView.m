@@ -16,6 +16,7 @@
         //handle edit mode
         [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(textViewEditStatusChanged:) name:UITextViewTextDidBeginEditingNotification object:self];
         [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(textViewEditStatusChanged:) name:UITextViewTextDidEndEditingNotification object:self];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewDidChange:) name:UITextViewTextDidChangeNotification object:self];
     }
     return self;
 }
@@ -28,6 +29,10 @@
     
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:UITextViewTextDidEndEditingNotification
+                                                  object:self];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:UITextViewTextDidChangeNotification
                                                   object:self];
 }
 
@@ -102,4 +107,19 @@
     
 }
 
+// char limit
+- (void)textViewDidChange:(NSNotification *)notification {
+    if (_textLimitCharacters && self.text.length > _textLimitCharacters) {
+        NSRange cursorLocation = self.selectedRange;
+        self.text = [self.text substringToIndex:_textLimitCharacters];
+        self.selectedRange = cursorLocation;
+    }
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+    if (_textLimitCharacters) {
+        return textView.text.length + (text.length - range.length) <= _textLimitCharacters;
+    }
+    return YES;
+}
 @end

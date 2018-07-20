@@ -21,5 +21,6 @@
 #import "FATextField.h"
 #import "FATextView.h"
 #import "FAView.h"
+#import "FAFloatLabelTextView.h"
 
 #endif /* FADesignable_h */

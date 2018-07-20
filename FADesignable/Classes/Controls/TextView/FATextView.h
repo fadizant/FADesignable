@@ -37,6 +37,7 @@ IB_DESIGNABLE
 #pragma mark - Padding
 @property (nonatomic) IBInspectable CGFloat textStartPadding;
 @property (nonatomic) IBInspectable CGFloat textTopPadding;
+@property (nonatomic) IBInspectable CGFloat textLimitCharacters;
 
 @property (nonatomic) IBInspectable BOOL selected;
 
