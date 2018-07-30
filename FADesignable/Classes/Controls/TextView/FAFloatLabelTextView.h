@@ -11,7 +11,6 @@
 IB_DESIGNABLE
 @interface FAFloatLabelTextView : FATextView
 
-
 /**
  * Read-only access to the floating label.
  */

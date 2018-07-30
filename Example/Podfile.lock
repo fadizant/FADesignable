@@ -1,5 +1,5 @@
 PODS:
-  - FADesignable (0.1.1):
+  - FADesignable (0.1.3):
     - UITextView+Placeholder
   - UITextView+Placeholder (1.2.1)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FADesignable: d06f3b8b4793247884e892fa3d55011d02ceeff7
+  FADesignable: fd20436c38d8c53c38f8ea70fcb020fd5ce6c69b
   UITextView+Placeholder: 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
 
 PODFILE CHECKSUM: 39a77830de8953f1674095ea62755e8a1c05de9d

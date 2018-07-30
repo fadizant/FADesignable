@@ -44,11 +44,21 @@
 -(void)updateDesignable{
     
     if (!bottomBorder && _isBottomBorder) {
-        bottomBorder = [[UIView alloc]initWithFrame:CGRectMake(0, self.frame.size.height-1, self.frame.size.width, 1)];
+        CGFloat top = self.frame.size.height-1 + self.contentOffset.y;
+        bottomBorder = [[UIView alloc]initWithFrame:CGRectMake(0,
+                                                               top,
+                                                               self.frame.size.width,
+                                                               1)];
         bottomBorder.backgroundColor = isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _borderColor;
         [self addSubview:bottomBorder];
+        
     } else if (_isBottomBorder)
     {
+        CGFloat top = self.frame.size.height-1 + self.contentOffset.y;
+        bottomBorder.frame = CGRectMake(0,
+                                        top,
+                                        self.frame.size.width,
+                                        1);
         bottomBorder.backgroundColor = isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _borderColor;
     }
     else
