@@ -9,12 +9,25 @@
 
 @implementation FACollectionView
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        self.isInDesignMode = true;
+    }
+    return self;
+}
+
 - (void)layoutSubviews{
     [super layoutSubviews];
     [self updateDesignable];
 }
 
 -(void)updateDesignable{
+    
+    if (self.stopDraw && !self.isInDesignMode)
+        return;
+    
     if (self.borderColor)
         self.layer.borderColor = [self.borderColor CGColor];
     

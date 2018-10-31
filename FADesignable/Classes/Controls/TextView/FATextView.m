@@ -13,6 +13,7 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
+        self.isInDesignMode = true;
         //handle edit mode
         [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(textViewEditStatusChanged:) name:UITextViewTextDidBeginEditingNotification object:self];
         [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(textViewEditStatusChanged:) name:UITextViewTextDidEndEditingNotification object:self];
@@ -43,13 +44,16 @@
 
 -(void)updateDesignable{
     
+    if (self.stopDraw && !self.isInDesignMode)
+        return;
+    
     if (!bottomBorder && _isBottomBorder) {
         CGFloat top = self.frame.size.height-1 + self.contentOffset.y;
         bottomBorder = [[UIView alloc]initWithFrame:CGRectMake(0,
                                                                top,
                                                                self.frame.size.width,
                                                                1)];
-        bottomBorder.backgroundColor = isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _borderColor;
+        bottomBorder.backgroundColor = isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _normalBorderColor;
         [self addSubview:bottomBorder];
         
     } else if (_isBottomBorder)
@@ -59,12 +63,12 @@
                                         top,
                                         self.frame.size.width,
                                         1);
-        bottomBorder.backgroundColor = isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _borderColor;
+        bottomBorder.backgroundColor = isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _normalBorderColor;
     }
     else
     {
-        if (self.borderColor)
-            self.layer.borderColor = isEditing ? [_editingBorderColor CGColor] : self.selected ? [_selectedBorderColor CGColor] : [_borderColor CGColor];
+        if (self.normalBorderColor)
+            self.layer.borderColor = isEditing ? [_editingBorderColor CGColor] : self.selected ? [_selectedBorderColor CGColor] : [_normalBorderColor CGColor];
         
         if (self.borderWidth)
             self.layer.borderWidth = self.borderWidth;

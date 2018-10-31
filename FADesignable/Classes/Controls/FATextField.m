@@ -9,6 +9,15 @@
 
 @implementation FATextField
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        self.isInDesignMode = true;
+    }
+    return self;
+}
+
 - (void)layoutSubviews{
     [super layoutSubviews];
     [self updateDesignable];
@@ -16,19 +25,22 @@
 
 -(void)updateDesignable{
     
+    if (self.stopDraw && !self.isInDesignMode)
+        return;
+    
     if (!bottomBorder && _isBottomBorder) {
         self.borderStyle = UITextBorderStyleNone;
         bottomBorder = [[UIView alloc]initWithFrame:CGRectMake(0, self.frame.size.height-1, self.frame.size.width, 1)];
-        bottomBorder.backgroundColor = self.isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _borderColor;
+        bottomBorder.backgroundColor = self.isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _normalBorderColor;
         [self addSubview:bottomBorder];
     } else if (_isBottomBorder)
     {
-        bottomBorder.backgroundColor = self.isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _borderColor;
+        bottomBorder.backgroundColor = self.isEditing ? _editingBorderColor : self.selected ? _selectedBorderColor : _normalBorderColor;
     }
     else
     {
-        if (self.borderColor)
-            self.layer.borderColor = self.isEditing ? [_editingBorderColor CGColor] : self.selected ? [_selectedBorderColor CGColor] : [_borderColor CGColor];
+        if (self.normalBorderColor)
+            self.layer.borderColor = self.isEditing ? [_editingBorderColor CGColor] : self.selected ? [_selectedBorderColor CGColor] : [_normalBorderColor CGColor];
         
         if (self.borderWidth)
             self.layer.borderWidth = self.borderWidth;

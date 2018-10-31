@@ -9,12 +9,24 @@
 
 @implementation FAButton
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        self.isInDesignMode = true;
+    }
+    return self;
+}
+
 - (void)layoutSubviews{
     [super layoutSubviews];
     [self updateDesignable];
 }
 
 -(void)updateDesignable{
+    
+    if (self.stopDraw && !self.isInDesignMode)
+        return;
     
     if (self.selected) {
         self.layer.borderColor = [_selectedBorderColor CGColor];
@@ -25,7 +37,7 @@
         if(_highlightedBackgroundColor)
             self.layer.backgroundColor = [_highlightedBackgroundColor CGColor];
     }else {
-        self.layer.borderColor = [_borderColor CGColor];
+        self.layer.borderColor = [_normalBorderColor CGColor];
         if(_normalBackgroundColor)
             self.layer.backgroundColor = [_normalBackgroundColor CGColor];
     }

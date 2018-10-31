@@ -10,6 +10,10 @@ IB_DESIGNABLE
 
 @interface FALabel : UILabel
 
+#pragma mark - Design Mode
+@property (nonatomic) BOOL isInDesignMode;
+@property (nonatomic) IBInspectable BOOL stopDraw;
+
 #pragma mark - Border
 @property (nonatomic,retain) IBInspectable UIColor *borderColor;
 @property (nonatomic) IBInspectable CGFloat borderWidth;

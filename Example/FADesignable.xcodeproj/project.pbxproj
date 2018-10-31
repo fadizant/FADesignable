@@ -258,9 +258,6 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fadizant;
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = UGT6JFF6RL;
-					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -551,7 +548,7 @@
 			baseConfigurationReference = D850651706EB7EB6EE52C2FF /* Pods-FADesignable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UGT6JFF6RL;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FADesignable/FADesignable-Prefix.pch";
 				INFOPLIST_FILE = "FADesignable/FADesignable-Info.plist";
@@ -567,7 +564,7 @@
 			baseConfigurationReference = 92E16906A9F9427386C84C50 /* Pods-FADesignable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UGT6JFF6RL;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FADesignable/FADesignable-Prefix.pch";
 				INFOPLIST_FILE = "FADesignable/FADesignable-Info.plist";

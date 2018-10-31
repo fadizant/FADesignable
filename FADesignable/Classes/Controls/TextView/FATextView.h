@@ -14,8 +14,12 @@ IB_DESIGNABLE
     BOOL isEditing;
 }
 
+#pragma mark - Design Mode
+@property (nonatomic) BOOL isInDesignMode;
+@property (nonatomic) IBInspectable BOOL stopDraw;
+
 #pragma mark - Border
-@property (nonatomic,retain) IBInspectable UIColor *borderColor;
+@property (nonatomic,retain) IBInspectable UIColor *normalBorderColor;
 @property (nonatomic,retain) IBInspectable UIColor *normalBackgroundColor;
 @property (nonatomic,retain) IBInspectable UIColor *selectedBorderColor;
 @property (nonatomic,retain) IBInspectable UIColor *selectedBackgroundColor;

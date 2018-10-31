@@ -97,15 +97,15 @@
 /* Begin PBXFileReference section */
 		0357127B8F811E2147E12FF2ED9DA1C8 /* Pods-FADesignable_Example-FADesignable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FADesignable_Example-FADesignable_Tests.modulemap"; sourceTree = "<group>"; };
 		04644C936171018CBACA0654A4858E0F /* FATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATableView.h; sourceTree = "<group>"; };
-		04C31A2A9A108D10D404D7E5F339B4AB /* FADesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FADesignable.framework; path = FADesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITextView_Placeholder.framework; path = "UITextView+Placeholder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C31A2A9A108D10D404D7E5F339B4AB /* FADesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FADesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3F7A1225B80BB356DBE2E3D234561D /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITextView_Placeholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D24C72F6F52DF94705BA29534749C6 /* FACollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FACollectionView.m; sourceTree = "<group>"; };
 		14B03AFC93EC2D10820D355CBEEC37D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1B73BAA7E1786C1FBD2013D0C9FE8567 /* Pods-FADesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2333FF8AB68C8D64615B47A63FCC1CF3 /* FASegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FASegmentedControl.h; sourceTree = "<group>"; };
 		2874FC88D8F97FBB2A31914D25887D98 /* Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example-FADesignable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		28D8AEEF16C16AE07EBB9AE798EF8850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2AB1EA10C248ED23EA021C49AE144C2A /* FADesignable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FADesignable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28D8AEEF16C16AE07EBB9AE798EF8850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2AB1EA10C248ED23EA021C49AE144C2A /* FADesignable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FADesignable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2E4A818CD60F4F601850C5DC5F95F779 /* FADesignable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FADesignable.modulemap; sourceTree = "<group>"; };
 		2E5004B71B3B3F5F4128E04541471D34 /* UIView+FAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FAView.h"; sourceTree = "<group>"; };
 		352903DCE59791F4682D2045009146DE /* NSString+FATextDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+FATextDirection.h"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		47BA803828C352C768A3A70B16D72A69 /* FADesignable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FADesignable.h; path = FADesignable/Classes/FADesignable.h; sourceTree = "<group>"; };
 		4A7558D38637076A019FDA8067A12FDE /* FAScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAScrollView.h; sourceTree = "<group>"; };
 		56525011B1C12753ABF661A301869F17 /* NSString+FATextDirection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+FATextDirection.m"; sourceTree = "<group>"; };
-		59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FADesignable_Example.framework; path = "Pods-FADesignable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E8DACBBB48F792A176867C7635FA09 /* Pods_FADesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADesignable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C86566CB99C557CA0165431B88B2E6 /* Pods-FADesignable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FADesignable_Example.modulemap"; sourceTree = "<group>"; };
 		684C2D0F573B50C7DAFABA2E150984B2 /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITextView_Placeholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		756A75CD702E94F8C2710E4E77A76D86 /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		892BC16B4894E636B9A4E530B01E19AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECAA2850176A93EAB0173D8920BB46F /* FAImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
 		90617045546BF757E967AC0D2A14FE9B /* FASegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FASegmentedControl.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98E89EEFD8B1B1D71546D0EB33914C42 /* UITextView+Placeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITextView+Placeholder.xcconfig"; sourceTree = "<group>"; };
 		9F1D756BBF54A485666F5F37AD930DDF /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9F45BEB53FF8F345F475E93AF33F13B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		C02BD1500088758876F5E219830E4C27 /* UITextView+Placeholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UITextView+Placeholder.modulemap"; sourceTree = "<group>"; };
 		C9A13DEC3CB11DE4790583B438260449 /* FAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAView.m; sourceTree = "<group>"; };
 		CA584C4B87886EA0B98A557053EEBF08 /* Pods-FADesignable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FADesignable_Example_FADesignable_Tests.framework; path = "Pods-FADesignable_Example-FADesignable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2277BE427A67B47532C1FBFA204AE6A /* Pods_FADesignable_Example_FADesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADesignable_Example_FADesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4793E121E39B6D4E614C85C9DE83DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D5A0A86C0960EB6DD073A4335500B6E1 /* Pods-FADesignable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FADesignable_Example-resources.sh"; sourceTree = "<group>"; };
 		DBB1CB6153567A64226E960B3CCF5D92 /* Pods-FADesignable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FADesignable_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		E0EF8A0FA6DC2FD593C883A3E7B526A6 /* Pods-FADesignable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FADesignable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2242E2D4FFF4855717D2163FC553C67 /* UITextView+Placeholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-prefix.pch"; sourceTree = "<group>"; };
 		E2F452A4C443856A93BE12D1026E76EB /* Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FADesignable_Example-FADesignable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E438F08DC7829C97C9B80B87F5FB3E64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E438F08DC7829C97C9B80B87F5FB3E64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E90EA54EDE483E6AE0860702493A329C /* UIScrollView+FAScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FAScrollView.m"; sourceTree = "<group>"; };
 		EC36127514DDEBC71793BED15F0B793F /* FAProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAProgressView.m; sourceTree = "<group>"; };
 		ED373DC31B3429A0CEDC46744DD8CB78 /* FATextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FATextView.h; sourceTree = "<group>"; };
@@ -273,7 +273,6 @@
 				352903DCE59791F4682D2045009146DE /* NSString+FATextDirection.h */,
 				56525011B1C12753ABF661A301869F17 /* NSString+FATextDirection.m */,
 			);
-			name = TextView;
 			path = TextView;
 			sourceTree = "<group>";
 		};
@@ -313,7 +312,6 @@
 				A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */,
 				57904B1AA1374D3915628DC8E059E1E6 /* Support Files */,
 			);
-			name = "UITextView+Placeholder";
 			path = "UITextView+Placeholder";
 			sourceTree = "<group>";
 		};
