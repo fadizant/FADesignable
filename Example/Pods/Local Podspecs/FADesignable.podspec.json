@@ -1,7 +1,7 @@
 {
   "name": "FADesignable",
-  "version": "0.1.3",
-  "summary": "fix dependency with UITextView+Placeholder and fix under line draw below FAFloatLabelTextView",
+  "version": "0.1.4",
+  "summary": "add Stop Draw",
   "homepage": "https://github.com/fadizant/FADesignable",
   "license": {
     "type": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/fadizant/FADesignable.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"

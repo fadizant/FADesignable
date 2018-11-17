@@ -216,7 +216,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				B902201BDD9533BAB0A90F33 /* [CP] Embed Pods Frameworks */,
-				6DDDFC1145BBF4E5D1C7EEF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +235,6 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				F5D31E857AA3862D8DF3145D /* [CP] Embed Pods Frameworks */,
-				C4C7461E99A1E3E7DB6D9F69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fadizant;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 527P3KZQ4C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -305,21 +306,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DDDFC1145BBF4E5D1C7EEF4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Example/Pods-FADesignable_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B902201BDD9533BAB0A90F33 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,21 +342,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4C7461E99A1E3E7DB6D9F69 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FADesignable_Example-FADesignable_Tests/Pods-FADesignable_Example-FADesignable_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0773015E41511DED3E1F705 /* [CP] Check Pods Manifest.lock */ = {
@@ -548,7 +519,7 @@
 			baseConfigurationReference = D850651706EB7EB6EE52C2FF /* Pods-FADesignable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 527P3KZQ4C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FADesignable/FADesignable-Prefix.pch";
 				INFOPLIST_FILE = "FADesignable/FADesignable-Info.plist";
@@ -564,7 +535,7 @@
 			baseConfigurationReference = 92E16906A9F9427386C84C50 /* Pods-FADesignable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 527P3KZQ4C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FADesignable/FADesignable-Prefix.pch";
 				INFOPLIST_FILE = "FADesignable/FADesignable-Info.plist";

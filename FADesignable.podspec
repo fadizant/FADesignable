@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FADesignable'
-  s.version          = '0.1.4'
-  s.summary          = 'add Stop Draw'
+  s.version          = '0.1.5'
+  s.summary          = 'add Multi Corners View'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

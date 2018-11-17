@@ -16,6 +16,7 @@
 #import "FACollectionView.h"
 #import "FAImageView.h"
 #import "FALabel.h"
+#import "FAMultiCornersView.h"
 #import "FAProgressView.h"
 #import "FAScrollView.h"
 #import "FASegmentedControl.h"

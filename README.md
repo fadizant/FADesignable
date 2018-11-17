@@ -8,7 +8,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+### ِAll supported views
 <img src="http://www.m5zn.com/newuploads/2018/10/31/png//3f2030e2068589a.png" height="600"/>
+
+### Multi Corners View
+<img src="http://www.m5zn.com/newuploads/2018/11/17/png//805c8dfb47bd56f.png"/>
 
 ## Installation
 
